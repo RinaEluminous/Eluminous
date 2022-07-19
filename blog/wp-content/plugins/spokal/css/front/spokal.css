@@ -1,0 +1,929 @@
+/*********************************************************
+ * Css For ScrollBox starts here
+ *********************************************************/
+#spokalScrollBoxShowOnScrole{
+    display:none;
+    bottom: 0px;
+    position: fixed;
+    z-index: 10000002;
+}
+
+.spokalScrollBox{
+    background-color: rgb(240, 240, 240);
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 15px 30px 40px 30px;
+    width: 267px;
+    position: relative;
+}
+
+.scrollBoxTitle{
+    margin-top: 7px;
+    margin-bottom: 11px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.scrollBoxTopText{
+    font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+.scrollBoxTopText li{
+    list-style-position: inside;
+}
+
+#closeScrollBox{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #bbb;
+}
+
+#closeScrollBox:after{
+    position: absolute;
+    content: "\00D7";
+    font-size: 30px;
+    line-height: 31px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    top: 3px;
+    right: 3px;
+}
+
+.scrollBox-field .sbx-input{
+    width:100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: #2b2b2b;
+    padding: 8px 10px 7px;
+    line-height: normal;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-size: 19px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    background-image: -webkit-linear-gradient(hsla(0,0%,100%,0), hsla(0,0%,100%,0));
+    min-height: 44px; 
+    -webkit-appearance: none; 
+    -webkit-border-radius: 0; 
+     border-radius: 0; 
+     float: none;
+     background-image: none;
+}
+
+.scrollBox-field{
+    margin-bottom: 5px;
+}
+
+.spokalScrollBox input[type="submit"]{
+    background-color: #0f52ba;
+    border: 0;
+    /*border-bottom: 3px solid #0d48a2;*/
+    border-bottom: 0px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 30px 11px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    width: 100%;
+    text-align:center;
+    cursor:pointer;
+    margin-top: 10px;
+    box-sizing: border-box;
+    min-height: 44px;
+    float: none;
+    background-image: none;
+}
+
+.spokalScrollBox input[type="submit"]:hover{
+    background: #0d48a2;
+    background-image: none;
+}
+
+#spokalScrollBoxShowOnScrole input[type="submit"]#scrollBoxContinue{
+    display:none;
+}
+
+.scrollBoxErrorMessage{
+    display: none;
+    margin-top: 10px;
+    color: red;
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+.scrollBoxSuccesMessage{
+    font-size: 17px;
+    color: green;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.scrollBoxLoadGif{
+    width: 20px; 
+    margin: 0 auto; 
+    padding: 10px;
+    display: none;
+    margin-top: 10px;
+}
+
+.scrollBox_footer{
+    background: #d8d8d8;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 100%;
+
+}
+
+.scrollBox_footer a{
+    color: #484848;
+    font-size: 12px;
+    font-weight: bold;
+}
+.scrollBox_footer a:hover{
+    text-decoration: underline;
+    color: #484848;
+}
+
+#scrollBoxSuccesMessage{
+    display:none;
+}
+
+@media screen and (max-height: 650px) {
+    .spokalScrollBox{
+        max-height: 568px;
+    }
+}
+
+@media screen and (max-height: 320px) {
+    .spokalScrollBox{
+        max-height: 280px;
+    }
+}
+
+@media screen and (max-width: 650px) and (min-width: 360px) {
+    .spokalScrollBox{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .spokalScrollBox{
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+/*    #spokalScrollBoxShowOnScrole{
+        width:80%;
+    }*/
+    
+    .spokalScrollBox{
+        /*width: 100%;*/
+        padding: 10px 15px 25px 15px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; 
+    }
+    
+    .scrollBox-field .sbx-input{
+        height: 24px;
+        min-height: 24px;
+        font-size: 15px;
+        padding: 4px 10px 4px;
+    }
+    
+    .scrollBoxTitle {
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
+    
+    .scrollBoxTopText {
+        line-height: 1.3;
+        margin-bottom: 9px;
+        font-size: 12px;
+    }
+    
+    .spokalScrollBox input[type="submit"]{
+        font-size: 12px;
+        height: 26px;
+        padding: 2px 16px 2px;
+        min-height: 26px;
+        margin-top: 3px;
+    }
+    
+    #closeScrollBox{
+        top: -5px;
+        right: 0;
+    }
+    
+    .scrollBox_footer{
+        height: 16px;
+    }
+    
+    .scrollBox_footer a {
+        vertical-align: middle;
+        font-size: 9px;
+    }
+    
+    .scrollBox_footer_wrap{
+        line-height: 1;
+    }
+    
+    .scrollBox-field {
+        margin-bottom: 2px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .spokalScrollBox{
+        max-height: 180px;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .spokalScrollBox{
+        padding: 5px 10px 15px 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; 
+    }
+    
+    .scrollBox-field .sbx-input{
+        height: 13px;
+        min-height: 13px;
+        font-size: 7px;
+        padding: 0px 10px 0px;
+        display: block;
+    }
+    
+    .scrollBoxTitle {
+        margin-bottom: 0px;
+        margin-top: 4px;
+        font-size: 10px;
+    }
+    
+    .scrollBoxTopText {
+        line-height: 1.3;
+        margin-bottom: 1px;
+        font-size: 9px;
+    }
+    
+    .spokalScrollBox input[type="submit"]{
+        font-size: 10px;
+        height: 15px;
+        padding: 2px 16px 2px;
+        min-height: 15px;
+        display: block;
+    }
+    
+    .scrollBox_footer{
+        height: 12px;
+    }
+    
+    .scrollBox_footer a {
+        vertical-align: middle;
+        font-size: 5px;
+    }
+    
+    #closeScrollBox{
+        top: -5px;
+        right: 0;
+    }
+    
+    #closeScrollBox:after{
+        font-size: 20px;
+        line-height: 21px;
+        height: 20px;
+        width: 20px;
+        right: 0px;
+    }
+    
+    
+    .scrollBox_footer_wrap{
+        line-height: 1;
+        vertical-align: middle;
+        margin-top: -2px;
+    }
+    
+    .scrollBox-field {
+        margin-bottom: 1px;
+    }
+    
+    .scrollBoxErrorMessage{
+        font-size: 9px;
+        margin-top: 2px;
+    }
+    
+    .scrollBox_footer{
+        position: fixed;
+    }
+}
+/*********************************************************
+ * Css For ScrollBox ends here
+ *********************************************************/
+
+
+/*********************************************************
+ * Css For SmartBar starts here
+ *********************************************************/
+#spokalSmartBarShowOnScrole{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 10000002;
+}
+
+.spokalSmartBar{
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.smartBarTopText{
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    /*text-rendering: optimizeLegibility;*/
+    display: inline-block;
+    margin-bottom: 5px;
+    direction: ltr;
+    vertical-align: middle;
+        
+}
+
+.smartBarTopText li{
+    list-style-position: inside;
+}
+
+.smartBar-field{
+    white-space: nowrap;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-transform: initial;
+    direction: ltr;
+    margin-left: 10px;
+    width: auto;
+}
+
+.smartBar-field input[type="text"]{
+    width: auto;
+}
+
+.smartBar-field .smb-input{
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background-color: #fff;
+    /*border: 1px solid #ccc;*/
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.75);
+    padding: 8px;
+    height: 37px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: -webkit-box-shadow 0.45s,border-color 0.45s ease-in-out;
+    -moz-transition: -moz-box-shadow 0.45s,border-color 0.45s ease-in-out;
+    transition: box-shadow 0.45s,border-color 0.45s ease-in-out;
+    display: inline-block;
+    width: auto;
+    margin: 0 5px 0 0;
+    direction: ltr;
+    vertical-align: middle;
+    border: 0;
+    float: none;
+    background-image: none;
+}
+
+.spokalSmartBar button{
+    cursor: pointer;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: none;
+    box-shadow: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    display: inline-block;
+    font-size: 16px;
+    background: #0f52ba;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /*border-bottom: 3px solid #0d48a2;*/
+    border-bottom: 0px;
+    color: #fff;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 0;
+    height: 37px;
+    vertical-align: middle;
+    padding: 0 2em;
+    direction: ltr;
+    float: none;
+    background-image: none;
+}
+
+.spokalSmartBar button:hover{
+    background: #0d48a2;
+    background-image: none;
+}
+
+#closeSmartBar{
+    position:absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    color: #bbb;
+}
+
+#closeSmartBar:after{
+    position: absolute;
+    content: "\00D7";
+    font-size: 30px;
+    line-height: 31px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    top: 3px;
+    right: 3px;
+}
+
+.smartBarLoadGif{
+    width: 20px; 
+    margin: 0 auto; 
+    padding: 10px;
+    display: none;
+}
+
+.smartBarGifWrapper{
+    min-width: 40px;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.smartBarSuccesMessage{
+    display: inline-block;
+    font-size: 15px;
+    color: green;
+    margin-bottom: 7px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#spokalSmartBarShowOnScrole button#smartBarContinue{
+    display:none;
+}
+
+.smartBarErrorMessage{
+    text-align: center;
+    display: none;
+    margin-top: 10px;
+    color: red;
+    font-size: 13px
+
+}
+
+#smartBarSuccesMessage{
+    display: none;
+}
+
+@media all and (max-width: 650px) {
+    .smartBar-field input,
+    .smartBar-field input[type="text"]{
+        width: 30%;
+    }
+    .smartBar-field input[type="text"]{
+        font-size: 15px;
+        margin-right: 1%;
+    }
+    
+    .smartBar-field{
+        margin-left: 2%;
+        width: 95%;
+    }
+    
+    #closeSmartBar{
+        top: -2px;
+        right: 0px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .spokalSmartBar button{
+          padding: 0 1em;
+          font-size: 14px;
+    }
+}
+
+@media all and (max-width: 315px) {
+    .smartBar-field input,
+    .smartBar-field input[type="text"],
+    .spokalSmartBar button{
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+    .smartBar-field input,
+    .smartBar-field input[type="text"]{
+        margin-bottom: 5px;
+    }
+    
+    .smartBar-field input[type="text"]{
+        font-size: 15px;
+    }
+    .smartBarErrorMessage{
+        margin-top: 0px;
+    }
+    
+}
+
+@media all and (max-width: 650px) {
+    .smartBar-field input[type="text"],
+    .spokalSmartBar button{
+        height: 26px;
+    }
+    
+    .spokalSmartBar button{
+          font-size: 12px;
+    }
+    
+    .smartBarTopText{
+        font-size: 16px;
+    }
+    
+    .spokalSmartBar{
+          padding: 5px 0px 5px 0px;
+    }
+    
+    .smartBarTopText{
+        margin-bottom: 3px;
+    }
+}
+
+
+@media screen and (max-height: 315px) {
+    .smartBar-field input[type="text"],
+    .spokalSmartBar button{
+        height: 26px;
+    }
+    
+    .spokalSmartBar button{
+          font-size: 12px;
+    }
+    
+    .smartBarTopText{
+        font-size: 14px;
+    }
+    
+    .smartBar-field input[type="text"]{
+        font-size: 15px;
+    }
+    
+    .spokalSmartBar{
+          padding: 5px 0px 5px 0px;
+    }
+    
+    .smartBarTopText{
+        margin-bottom: 3px;
+    }
+}
+/*********************************************************
+ * Css For SmartBar ends here
+ *********************************************************/
+
+
+/*********************************************************
+ * Css For SpokalPopup starts here
+ *********************************************************/
+.sp_popup_progressValue .sp_popup_inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*border-radius: 8px;*/
+    background-color: transparent;
+    -webkit-animation: bubbles 10s linear infinite;
+    animation: bubbles 10s linear infinite;
+}
+
+
+.sp_popup_prog_header{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold
+}
+
+/*.sp_popup_prog_explanation{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}*/
+
+.sp_popup_progressValue {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 25px;
+    /*border-radius: 8px;*/
+    background-color: #390DFF;
+    /*background-image: linear-gradient(to right,#00c4cc,#a06fda,#00c4cc);*/
+    /*background-size: 400px 100%;*/
+    /*box-shadow: inset 0 -7px 7px rgba(0,0,0,.15),3px 3px 6px rgba(0,0,0,.15);*/
+    /*-webkit-animation: progressGradient 5s linear infinite;*/
+    /*animation: progressGradient 5s linear infinite;*/
+    /*transition: width 4s ease-out;*/
+    width: 50%;
+}
+
+
+.sp_popup_progress {
+    position: relative;
+    width: 85%;
+    height: 25px;
+    overflow: hidden;
+    margin-top: 1.4em;
+    /*border-radius: 8px;*/
+    background-color: #eee;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.25),transparent);
+    margin: 0 auto;
+}
+
+/*Exit intent style*/
+.sp_popup_overlay{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+    background-color: rgba(80,80,80,0.5);
+    z-index: 9999;
+    display: none;
+}
+
+.sp_popup_wrapp{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 650px;
+    margin-left: -325px;
+    -webkit-box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 25px;
+    background-color: #fefefe;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.sp_popup_wrapp li{
+    list-style-position: inside;
+}
+
+
+.close_sp_popup{
+    position:absolute;
+    top: 0px;
+    right: 10px;
+    cursor: pointer;
+    color: #bbb;
+}
+
+.close_sp_popup:after{
+    position: absolute;
+    content: "\00D7";
+    font-size: 30px;
+    line-height: 31px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    top: 3px;
+    right: 3px;
+}
+
+.sp_popup_title{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-top: 0px;
+    margin-bottom: 11px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #444444;
+    line-height: 1.3;
+    text-align: center;
+}
+.sp_popup_top_text.align-left{
+    text-align: left;
+}
+
+.sp_popup_top_text.align-center{
+    text-align: center;
+}
+
+.sp_popup_logo{
+    height: 120px;
+    margin: 0 20px 0 0;
+    float: left;
+    display: block;
+}
+
+.sp_popup_top_text{
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 24px;
+    color: #444444;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.3;
+}
+
+
+.sp_popup_error_message{
+    display: none;
+    margin-top: 10px;
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.sp_popup_wrapp input[type="submit"].sp_popup_continue{
+    display:none;
+}
+
+.sp_popup_succes_message{
+    font-size: 24px;
+    color: green;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.sp_popup_LoadGif{
+    width: 20px; 
+    margin: 0 auto; 
+    padding: 10px;
+    display: none;
+    margin-top: 10px;
+}
+
+.sp_popup_field .sp-popup-input{
+    width:100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: #2b2b2b;
+    padding: 8px 10px 7px;
+    line-height: normal;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-size: 19px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    background-image: -webkit-linear-gradient(hsla(0,0%,100%,0), hsla(0,0%,100%,0));
+    min-height: 44px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    float: none;
+    background-image: none;
+}
+
+.sp_popup_field{
+    margin-bottom: 5px;
+}
+
+.sp_popup_wrapp input[type="submit"]{
+    background-color: #0f52ba;
+    border: 0;
+/*    border-bottom: 3px solid #0d48a2;*/
+    border-bottom: 0px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 30px 11px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    width: 100%;
+    text-align:center;
+    cursor:pointer;
+    margin-top: 10px;
+    box-sizing: border-box;
+    min-height: 44px;
+    float: none;
+    background-image: none;
+}
+
+.sp_popup_wrapp input[type="submit"]:hover{
+    background-image: none;
+    background: #0d48a2;
+}
+
+.sp_popup_content{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.sp_popup_succes_message{
+    display: none;
+}
+
+
+@media all and (max-width: 500px) {
+    .sp_popup_wrapp{
+        width: 300px;
+        margin-left: -150px;
+    }
+    
+    .sp_popup_top_text,
+    .sp_popup_title{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    .sp_popup_logo{
+        margin-right: 5px;
+        height: 90px;
+    }
+    
+    .sp_popup_top_text.align-left{
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
+
+@media only all and (max-device-width: 800px) and (min-width: 686px){
+    .sp_popup_wrapp{
+        width: 540px;
+        margin-left: -270px;
+    }
+    
+    .sp_popup_overlay{
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+@media all and (max-width: 685px) and (min-width: 501px){
+    .sp_popup_wrapp{
+        width: 480px;
+        margin-left: -240px;
+    }
+    
+    .sp_popup_overlay{
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+/*********************************************************
+ * Css For SpokalPopup ends here
+ *********************************************************/

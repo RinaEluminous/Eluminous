@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"users.min.js",
+"lineCount":6,
+"mappings":"A;;;;AAOA,GAAsB,WAAtB,GAAI,MAAOA,OAAX,CAEC,IAAIA,OAAS,EAGc,YAA5B,GAAI,MAAOA,OAAAC,MAAX,GAECD,MAAAC,MAFD,CAEgB,EAFhB,CAKAD,OAAAC,MAAAC,WAAA,CAA0BC,QAAQ,EAClC,CACCH,MAAAI,OAAAC,cAAA,CAA4B,QAAQ,EAAG,CACtCL,MAAAI,OAAAE,iBAAA,CAA+BC,QAAAC,eAAA,CAAwB,aAAxB,CAA/B,CAAuE,QAAvE,CAAiFR,MAAAC,MAAAQ,kBAAjF,CAEAT,OAAAC,MAAAQ,kBAAA,EAHsC,CAAvC,CADD,CAQAT;MAAAC,MAAAQ,kBAAA,CAAiCC,QAAQ,EACzC,CAGC,IAFA,IAAIC,EAAUJ,QAAAK,iBAAA,CAA0B,qBAA1B,CAAd,CAESC,EAAI,CAAb,CAAgBA,CAAhB,CAAoBF,CAAAG,OAApB,CAAoCD,CAAA,EAApC,CAEiBF,CAAAI,CAAQF,CAARE,CAEhBC,MAAAC,QAAA,CAA0B,MAIvBC,EAAAA,CAAgB,MAAhBA,CADcX,QAAAC,eAAAW,CAAwB,aAAxBA,CACWC,MAC7Bb,SAAAC,eAAA,CAAwBU,CAAxB,CAAAF,MAAAC,QAAA,CAAuD,OAZxD;",
+"sources":["../../uncompressed/js/solo/users.js"],
+"names":["akeeba","Users","initialize","akeeba.Users.initialize","System","documentReady","addEventListener","document","getElementById","onTFAMethodChange","akeeba.Users.onTFAMethodChange","tfaDivs","querySelectorAll","i","length","container","style","display","containerName","elTFAMethod","value"]
+}

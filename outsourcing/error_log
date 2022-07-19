@@ -1,0 +1,16 @@
+[18-Oct-2016 03:53:32] PHP Fatal error:  Class 'SMTP' not found in /home/elumi/public_html/outsourcing/class.phpmailer.php on line 735
+[18-Oct-2016 03:59:08] PHP Fatal error:  Class 'SMTP' not found in /home/elumi/public_html/outsourcing/class.phpmailer.php on line 735
+[18-Oct-2016 07:20:47] PHP Fatal error:  Class 'SMTP' not found in /home/elumi/public_html/outsourcing/class.phpmailer.php on line 735
+[18-Oct-2016 07:34:29] PHP Fatal error:  Class 'SMTP' not found in /home/elumi/public_html/outsourcing/class.phpmailer.php on line 735
+[18-Oct-2016 07:43:42] PHP Fatal error:  Class 'SMTP' not found in /home/elumi/public_html/outsourcing/class.phpmailer.php on line 735
+[18-Oct-2016 07:59:54] PHP Fatal error:  Class 'SMTP' not found in /home/elumi/public_html/outsourcing/class.phpmailer.php on line 735
+[18-Oct-2016 08:00:42] PHP Fatal error:  Class 'SMTP' not found in /home/elumi/public_html/outsourcing/class.phpmailer.php on line 735
+[18-Oct-2016 08:01:11] PHP Fatal error:  Call to undefined method stdClass::Connected() in /home/elumi/public_html/outsourcing/class.phpmailer.php on line 741
+[18-Oct-2016 08:01:56] PHP Fatal error:  Class 'SMTP' not found in /home/elumi/public_html/outsourcing/class.phpmailer.php on line 735
+[18-Oct-2016 08:02:13] PHP Fatal error:  Class 'SMTP' not found in /home/elumi/public_html/outsourcing/class.phpmailer.php on line 735
+[18-Oct-2016 08:02:30] PHP Fatal error:  Class 'SMTP' not found in /home/elumi/public_html/outsourcing/class.phpmailer.php on line 735
+[18-Oct-2016 08:03:41] PHP Fatal error:  Class 'SMTP' not found in /home/elumi/public_html/outsourcing/class.phpmailer.php on line 735
+[18-Oct-2016 08:04:13] PHP Fatal error:  Class 'SMTP' not found in /home/elumi/public_html/outsourcing/class.phpmailer.php on line 735
+[22-Dec-2016 01:10:44] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/elumi/public_html/outsourcing/index.php:1) in /home/elumi/public_html/outsourcing/index.php on line 2169
+[22-Dec-2016 01:11:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/elumi/public_html/outsourcing/index.php:1) in /home/elumi/public_html/outsourcing/index.php on line 2169
+[21-Mar-2017 01:36:02] PHP Parse error:  syntax error, unexpected '}' in /home/elumi/public_html/outsourcing/index.php on line 345

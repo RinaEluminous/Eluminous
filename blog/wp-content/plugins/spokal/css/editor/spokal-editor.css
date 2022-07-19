@@ -1,0 +1,1045 @@
+/*********************************************************
+ * Css For Spokal SEO starts here
+ *********************************************************/
+.sp-seo-alert{
+    padding: 0.5em 0.75em;
+    margin: 0.5em 0;
+    font-size: 0.9em;
+    line-height: normal;
+    border-radius: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    color: #c09853;
+}
+
+.sp-seo-alert.sp-seo-danger{
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+
+.sp-seo-alert.sp-seo-success{
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.sp-seo-alert.sp-seo-warning{
+    background-color: #fcf8e3;
+    border-color: #fbeed5;
+    color: #c09853;
+}
+/*********************************************************
+ * Css For Spokal SEO ends here
+ *********************************************************/
+
+
+/*********************************************************
+ * Css For Spokal A/B test title starts here
+ *********************************************************/
+#spokal-secondary-title-input
+{
+    padding: 3px 8px;
+    font-size: 1.7em;
+    line-height: 100%;
+    height: 1.7em;
+    width: 80%;
+    outline: 0;
+    margin: 0 0 3px;
+    background-color: #fff;
+}
+
+
+#sp_ab_title_wrap{
+    display: inline-block; 
+    width: 7%;  
+    vertical-align: top;
+}
+#sp-sec-title-test-show{
+    display: inline-block; 
+    margin-left: 4px; 
+    margin-top: 3px;
+}
+
+#sp-sec-title-show{
+    display: inline-block; 
+    margin-left: 4px; 
+    margin-top: 3px;
+}
+
+#sp-sec-title-hide{
+    padding-top: 12px; 
+    display: none; 
+    float:left; 
+    margin-left: 4px; 
+    margin-top: 3px; 
+    position: relative;
+}
+
+#sp-sec-title-hide i {
+    border: 2px solid white; 
+    width: 5px; 
+    display: block;
+}
+/*********************************************************
+ * Css For Spokal A/B test title ends here
+ *********************************************************/
+
+
+/*********************************************************
+ * Css For Spokal Focuses field in wp-editor starts here
+ *********************************************************/
+#spokal_focuses{
+    display: inline-block!important;
+    padding: 0!important;
+    min-height: 0!important;
+    max-height: none!important;
+    max-width: 100%!important;
+    margin: 0!important;
+    text-indent: 0!important;
+    border: 0 none!important;
+    background: none!important;
+    line-height: inherit!important;
+    -webkit-user-select: auto!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    width: 65px;
+    opacity: 1;
+    position: relative;
+    left: 0px;
+    float:left;
+}
+
+.sp-div-input{
+    border: 1px solid #d0d0d0;
+    padding: 7px 10px;
+    display: inline-block;
+    width: 100%;
+    /*overflow: hidden;*/
+    position: relative;
+    z-index: 1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: none;
+    cursor: text;
+}
+
+.sp-div-input > .sp_focus_tag:first-child {
+    background-color: #438eb9;
+    color: #fff;
+}
+
+.sp-div-input > .sp_focus_tag:nth-of-type(1) {
+    background-color: #438eb9;
+    color: #fff;
+}
+
+.sp-div-input>div {
+    background: none;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 1px 3px;
+    float:left;
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+.sp-div-input>div:focus {
+    border: 1px solid #438eb9;
+}
+
+.sp-div-input::after {
+    content: ' ';
+    display: block;
+    clear: left;
+}
+
+#spokal_focus_wrap .ui-autocomplete{
+    margin: 2px 0 0 0;
+    z-index: 1000;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+    color: #333333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    -webkit-font-smoothing: inherit;
+    padding: 5px 0;
+}
+
+#spokal_focus_wrap .ui-autocomplete li.ui-menu-item{
+    padding: 3px 10px;
+}
+
+#spokal_focus_wrap .ui-autocomplete li.ui-menu-item a{
+    padding: 0px !important;
+}
+
+#spokal_focus_wrap .ui-autocomplete li.ui-menu-item a:hover{
+    background: transparent !important;
+    color: #ffffff;
+}
+
+#spokal_focus_wrap .ui-autocomplete li.ui-menu-item:hover > a{
+    background: transparent !important;
+    color: #ffffff;
+}
+
+#spokal_focus_wrap .ui-autocomplete li.ui-menu-item:hover{
+    padding: 3px 10px;
+    background-color: #0081c2;
+    background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+    background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+    background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+    background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+    background-repeat: repeat-x;
+    color: #ffffff;
+}
+
+#spokal_focus_wrap .ui-autocomplete li.ui-menu-item.ui-state-focus{
+    padding: 3px 10px;
+    background-color: #0081c2;
+    background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+    background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+    background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+    background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+    background-repeat: repeat-x;
+    color: #ffffff;
+}
+/*********************************************************
+ * Css For Spokal Focuses field in wp-editor ends here
+ *********************************************************/
+
+
+
+/*********************************************************
+ * Css For Spokal Keywords field in wp-editor starts here
+ *********************************************************/
+#sp-keywords-wrapp .ui-autocomplete{
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    background-color: #fff;
+}
+
+#sp-keywords-wrapp .ui-autocomplete li.ui-menu-item{
+    padding: 3px 10px;
+}
+
+#sp-keywords-wrapp .ui-autocomplete li.ui-menu-item.ui-state-focus{
+    padding: 3px 10px;
+    color: #fff !important;
+    background: #000 !important;
+}
+
+#sp-keywords-wrapp .ui-autocomplete li.ui-menu-item a{
+    padding: 0px !important;
+}
+
+#sp-keywords-wrapp .ui-autocomplete li.ui-menu-item a:hover{
+    color: #fff !important;
+    background: transparent !important;
+}
+
+#sp-keywords-wrapp .ui-autocomplete li.ui-menu-item:hover{
+    color: #fff !important;
+    background: #000 !important;
+}
+
+#sp-keywords-wrapp .ui-autocomplete li.ui-menu-item:hover > a{
+    color: #fff !important;
+    background: transparent !important;
+}
+
+/*********************************************************
+ * Css For Spokal Keywords field in wp-editor ends here
+ *********************************************************/
+
+
+
+
+/*********************************************************
+ * Css For Spokal Preview draft in wp-editor starts here
+ *********************************************************/
+#sp_draft_preview{
+    display: inline-block;
+    color: #fff!important;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25)!important;
+    background-image: none!important;
+    box-shadow: none!important;
+    -webkit-transition: all ease .15s;
+    -moz-transition: all ease .15s;
+    -o-transition: all ease .15s;
+    transition: all ease .15s;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0;
+    position: relative;
+    padding: 0 12px 1px;
+    line-height: 32px;
+    font-size: 14px;
+    height: auto;
+}
+
+#sp_draft_preview{
+    border: 5px solid #abbac3;
+    background-color: #abbac3!important;
+    border-radius: 6px;
+    line-height: 18px;
+    font-size: 13px;
+    padding: 0 8px;
+}
+
+#sp_draft_preview:hover{
+    background-color: #8b9aa3!important
+}
+
+.sp_draft_preview_link:focus{
+    box-shadow: none;
+}
+
+.sp_preview_pop_messag {
+    padding: 5px;
+    margin-top: -3px;
+    left: -48px;
+    top: 36px;
+    width: 170px; 
+    position: absolute; 
+    background-color: #000; 
+    display: none; 
+    text-align:center;
+    z-index: 10000;
+}
+
+.sp_preview_pop_messag .sp-arrow{
+    top: -5px;
+    left: 50%;
+    margin-left: -5px;
+    border-bottom-color: #000;
+    border-width: 0 5px 5px;
+}
+/*********************************************************
+ * Css For  Spokal Preview in wp-editor ends here
+ *********************************************************/
+
+
+/*********************************************************
+ * Css For Spokal Inline CTA in wp-editor starts here
+ *********************************************************/
+#sp_inline_cta_settings{
+    width: 550px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: #fff;
+    z-index: 1000;
+    display: none;
+    border: 1px solid #e4e9ee;
+}
+
+#sp_inline_cta_short,
+#sp_inline_cta_short:focus{
+    background-color: gray;
+    border-color: gray;
+    font-size: 12px;
+    padding: 0 7px 2px;
+    height: 27px;
+    line-height: 25px;
+}
+
+#sp_inline_cta_short:focus{
+    box-shadow: none;
+}
+
+.sp_inline_cta_header{
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.sp-inlince-CTA-modal-body{
+    padding: 10px 15px;
+}
+
+.sp_clearfix:before, 
+.sp_clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.sp_clearfix:after {
+    clear: both;
+}
+
+.sp_clearfix input[type="text"]{
+    width: 350px;
+    margin-bottom: 5px;
+    float: right;
+}
+
+.sp_inline_title{
+    line-height: 26px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#close_inline_cta_settings {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    cursor: pointer;
+    color: #bbb;
+}
+
+#close_inline_cta_settings:after {
+    position: absolute;
+    content: "\00D7";
+    font-size: 30px;
+    line-height: 31px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    top: 3px;
+    right: 3px;
+}
+
+.sp_clearfix .sp_img_wrapp{
+    border: 1px solid rgba(0,0,0,.2);
+    padding: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+.sp_img_wrapp img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.sp-optin-footer .sp-social-save,
+.sp-optin-footer .sp-optin-generate,
+.sp-optin-footer .sp-optin-cancel,
+.sp-uplad-image-btn .sp-inline-upload,
+.sp-uplad-image-btn .sp-inline-remove{
+    display: inline-block;
+    color: #fff!important;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25)!important;
+    background-image: none!important;
+    box-shadow: none!important;
+    -webkit-transition: all ease .15s;
+    -moz-transition: all ease .15s;
+    -o-transition: all ease .15s;
+    transition: all ease .15s;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0;
+    position: relative;
+    padding: 0 12px 1px;
+    line-height: 32px;
+    font-size: 14px;
+    height: auto;
+}
+
+.sp-uplad-image-btn .sp-inline-upload,
+.sp-uplad-image-btn .sp-inline-remove{
+    width: 145px;
+    text-align: center;
+}
+.sp-optin-generate,
+.sp-social-save,
+.sp-optin-cancel{
+    float: right;
+}
+
+.sp-optin-cancel{
+    margin-right: 10px !important;
+}
+
+.sp-inline-upload,.sp-optin-generate,.sp-social-save{
+    border: 5px solid #2283c5;
+    background-color: #2283c5!important;
+    border-radius: 6px;
+}
+
+.sp-optin-cancel{
+    border: 5px solid #abbac3;
+    background-color: #abbac3!important;
+    border-radius: 6px;
+}
+
+.sp-optin-cancel:hover{
+    background-color: #8b9aa3 !important;
+}
+
+.sp-inline-remove,
+.sp-inline-remove.disabled{
+    border: 5px solid #ffb752;
+    background-color: #ffb752!important;
+    border-radius: 6px;
+    margin-top: 5px !important;
+}
+
+.sp-inline-remove.disabled{
+    opacity: 0.6;
+}
+.sp-inline-remove.disabled:hover{
+    background-color: #ffb752!important;
+}
+
+.sp-inline-upload:hover,
+.sp-optin-generate:hover,
+.sp-social-save:hover{
+    background-color: #045e9f!important;
+}
+
+.sp-inline-remove:hover {
+    background-color: #e59729!important;
+}
+
+
+.sp-optin-check{
+    margin-right: 5px;
+}
+
+.sp-optin-footer{
+    border-top: 1px solid #e4e9ee;
+    background-color: #eff3f8;
+    min-height: 20px;
+    padding: 10px 15px;
+}
+
+.sp-optin-alert-error{
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+
+.sp_inline_spinner{
+    -webkit-background-size: 20px 20px;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    width: 20px;
+    height: 20px;
+    margin: 2px 5px 0;
+    display: none;
+}
+/*********************************************************
+ * Css For Spokal Inline CTA in wp-editor ends here
+ *********************************************************/
+
+
+/*********************************************************
+ * Css For Spokal Social Modal in wp-editor starts here
+ *********************************************************/
+#sp_social_modal{
+    width: 700px;
+    margin-left: -350px;
+    position: fixed;
+    top: 7%;
+    left: 50%;
+    z-index: 10050;
+    margin-left: -280px;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,0.3);
+    outline: 0;
+    -webkit-box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+    box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    display: none;
+}
+
+#sp_social_blank{
+    opacity: .8;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10040;
+    background-color: #000;
+    display: none;
+}
+
+#sp_social_modal > .sp-modal-body {
+    padding: 15px 0px;
+    /*overflow: hidden;*/
+}
+#sp_social_modal .sp-modal-body {
+    /*max-height: 550px;*/
+}
+
+#sp_social_modal > .sp-modal-body div.sp-row-fluid {
+    margin-left: 10px;
+}
+
+
+#sp_social_modal > .sp-modal-body .span11
+{
+    width: 91.45299145299145%;
+    margin-left: 2.564102564102564%;
+}
+
+#sp_social_modal > .sp-modal-body .span1
+{
+    width: 5.982905982905983%;
+}
+
+.sp-row-fluid .span3 {
+    width: 23.076923076923077%;
+}
+
+.span9 {
+    width: 74.35897435897436%;
+    margin-left: 2.564102564102564%;
+}
+#sp_social_modal .sp-row-fluid [class*="span"]
+{
+    display: block;
+    float: left;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#sp_social_modal .sp-contenteditable:hover,
+#sp_social_modal .sp-contenteditable:focus{
+    background-color: #fff9ea;
+}
+
+.sp-row-fluid:after {
+    clear: both;
+}
+
+.sp-row-fluid:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+#sp_social_modal .sp-fb-background,
+#sp_social_modal textarea.sp-fb-background.sp-contenteditable{
+    background-color: #F6F7F9;
+}
+
+#sp_social_modal textarea.sp-fb-background.sp-contenteditable:hover,
+#sp_social_modal textarea.sp-fb-background.sp-contenteditable:focus{
+    background-color: #fff9ea;
+}
+
+#sp_social_modal .sp-social-account {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+#sp_social_modal .sp-social-account[sp-account-disabled=true] {
+    opacity: 0.2;
+}
+
+#sp_social_modal .sp-social-account[sp-account-disabled=false] {
+    opacity: 1;
+}
+
+
+
+#sp_social_modal .sp-contenteditable {
+    min-height: 20px;
+    height: 30px;
+    max-height: 40px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    resize: none;
+    margin-bottom: 0px;
+    padding: 5px;
+    border: none;
+}
+#sp_social_modal textarea.sp-contenteditable
+{
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    border-radius: 0!important;
+    border-width: 1px;
+    color: #858585;
+    background-color: #fff;
+    border-color: #d5d5d5;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition-duration: .1s;
+    -moz-transition-duration: .1s;
+    -o-transition-duration: .1s;
+    transition-duration: .1s;
+}
+
+.twt_title_b,
+.twt_title_a{
+    margin-right: 5px; 
+    float:left;
+    display: inline-block;
+    padding: 2px 4px;
+    font-size: 11.844px;
+    font-weight: bold;
+    line-height: 14px;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 3px;
+}
+
+.twt_title_b{
+    background-color: #3a87ad!important;
+    margin-top: 4px;
+}
+
+.twt_title_a{
+    margin-top: 4px;
+    background-color: #82af6f;
+}
+
+
+.sp-facebookdesc {
+    color: gray;
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 14px;
+}
+
+.sp_fb_icon{
+    background: url(../../images/facebook_icon_15.png) -6px -2px/20px 20px no-repeat;
+}
+.sp_twt_icon{
+    background: url(../../images/twitter_icon_30.png) -6px -7px/30px 30px no-repeat;
+}
+.sp_lock_icon{
+    background: url(../../images/locked_30.png) -1px -1px/17px 17px no-repeat;
+}
+.sp_li_icon{
+    background: url(../../images/linked_in.png) 0 0/20px 20px no-repeat;
+}
+.sp_google_icon{
+    background: url(../../images/search-icon-blue-15.png) 0 0/15px 15px no-repeat;
+}
+
+.sp_social_button{
+    background: url(../../images/social-post-on.png) 0 0/30px 30px no-repeat;
+}
+/*.sp_social_button.sp_social_button_disabled{
+    background: url(../images/social-post-off.png) 0 0/30px 30px no-repeat;
+}*/
+
+.sp_li_icon,
+.sp_twt_icon,
+.sp_fb_icon,
+.sp_google_icon,
+.sp_bf_icon,
+.sp_lock_icon
+{
+    width: 20px; 
+    height: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#sp_sm_single_enable{
+    display: inline-block;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+#sp_sm_single_enable{
+    box-shadow: none;
+}
+
+
+#close_sp_soc_modal {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    cursor: pointer;
+    color: #bbb;
+    z-index: 10000;
+}
+
+#close_sp_soc_modal:after {
+    position: absolute;
+    content: "\00D7";
+    font-size: 30px;
+    line-height: 31px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    top: 3px;
+    right: 3px;
+}
+
+#sp_fb_post_desc
+{
+    width: 670px; 
+    margin-left: 10px; 
+    margin-bottom: 10px; 
+    overflow: hidden; 
+    word-wrap: break-word;
+}
+
+.sp_clearfix:before, 
+.sp_clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.sp_clearfix:after {
+    clear: both;
+}
+
+.sp_fb_img,
+.sp_fb_tags{
+    float: left;
+}
+.sp_fb_img{
+    width: 23.076923076923077%;
+}
+
+.sp_fb_tags{
+    width: 74.35897435897436%;
+    margin-left: 2.564102564102564%;
+}
+
+.sp_social_button{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+
+.sp_fb_li_icons,
+.sp_google_icon_wrapp,
+.sp_twt_disable_wrapp{
+    float:left;
+    width: 5.982905982905983%;
+}
+
+.sp_fb_disable,
+.sp_li_disable,
+.sp_google_icon,
+.sp_twt_disable,
+.sp_bf_disable{
+    height: 20px;
+    cursor: pointer;
+}
+
+.sp_meta_desc_title{
+    color: #11c; 
+    font-size: 15px; 
+    line-height: 15px; 
+    text-decoration: underline; 
+    margin: 0; 
+    padding: 0;
+}
+
+.sp_meta_desc_permalink{
+    font-size: 13px;
+    color: #00802a;
+    line-height: 15px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.sp_fb_messag {
+    padding: 5px 0;
+    margin-top: -3px;
+    left: 28px; 
+    top: -10px; 
+    width: 170px; 
+    position: absolute; 
+    background-color: #000; 
+    display: none; 
+    text-align:center;
+    z-index: 1000;
+}
+
+.sp_fb_messag .sp-arrow {
+    top: 50%;
+    left: -5px;
+    margin-top: -5px;
+    border-right-color: #000;
+    border-width: 5px 5px 5px 0;
+}
+
+.sp-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.sp-fb-msg-inner {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 rgba(42,45,50,.5);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.sp-fb-msg-inner {
+    max-width: 200px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.sp_soc_acc_pop_message {
+    padding: 5px 2px;
+    margin-top: -3px;
+    left: -14px;
+    top: -31px;
+    min-width: 90px; 
+    position: absolute; 
+    background-color: #000; 
+    display: none; 
+    text-align:center;
+    z-index: 10000;
+}
+
+.sp_social_pop_messag {
+    padding: 5px 0;
+    margin-top: -3px;
+    left: -67px;
+    top: -54px; 
+    width: 170px; 
+    position: absolute; 
+    background-color: #000; 
+    display: none; 
+    text-align:center;
+    z-index: 10000;
+}
+
+.sp_social_twt_img_messag .sp-arrow,
+.sp_social_pop_messag .sp-arrow,
+.sp_soc_acc_pop_message .sp-arrow,
+.sp_social_fb_img_messag .sp-arrow,
+.sp_social_recover_messag .sp-arrow,
+.sp_social_recurring_messag .sp-arrow{
+    bottom: -5px;
+    left: 50%;
+    margin-left: -5px;
+    border-top-color: #000;
+    border-width: 5px 5px 0;
+}
+
+.sp_social_twt_img_messag,
+.sp_social_fb_img_messag,
+.sp_social_recover_messag{
+    padding: 5px;
+    margin-top: -3px;
+    left: -30px;
+    top: -51px;
+    width: 170px;
+    position: absolute;
+    background-color: #000;
+    display: none; 
+    text-align: center;
+}
+
+.sp_social_recurring_messag{
+    padding: 5px;
+    margin-top: -3px;
+    top: -73px;
+    right: 46px;
+    width: 170px;
+    position: absolute;
+    background-color: #000;
+    display: none; 
+    text-align: center;
+}
+
+.sp_social_recover_messag{
+    left: 0px !important;
+    top: -55px !important;
+}
+
+#sp-social-save.disabled{
+    background-color: #2283c5!important;
+    border-color: #2283c5;
+    opacity: 0.6;
+}
+
+#sp_twt_img_remove{
+    display: block;
+}
+
+#sp_twt_img
+{
+    min-height: 40px; 
+    margin-top:3px; 
+    position: relative; 
+    text-align: center; 
+    float:left; 
+    width: 23.076923076923077%;
+}
+
+.sp-no-social-accounts{
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    font-size: 14px;
+    border-radius: 0;
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    border: 1px solid #fbeed5;
+}
+
+.sp_recurring_enabled{
+    background: url(../../images/refresh_enabled.png) 0px 0px/24px 24px no-repeat;
+    display: block;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-right: 8px;
+}
+.sp_recurring_disabled{
+    background: url(../../images/refresh_disabled.png) 0px 0px/24px 24px no-repeat;
+    display: block;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-right: 8px;
+}
+
+/*********************************************************
+ * Css For Spokal Social Modal in wp-editor ends here
+ *********************************************************/

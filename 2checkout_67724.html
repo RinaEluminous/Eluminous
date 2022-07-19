@@ -1,0 +1,125 @@
+<html>
+
+<head><link rel="shortcut icon" href="favicon.ico" >
+
+<link rel="icon" href="animated_favicon1.gif" type="image/gif" ></head>
+<link rel="shortcut icon" href="favicon.ico" >
+<link rel="icon" href="animated_favicon1.gif" type="image/gif" >
+<script type="text/javascript" src="./fancybox/jquery-1.10.1.min.js"></script>
+<link rel="stylesheet" href="style.css" />
+<script language="javascript">
+function validate(){	
+
+	var isvalid = true;
+
+	var inv_no = document.form1.inv_no.value;
+	var cName = document.form1.cName.value;
+
+	//var regexp= /^[0-9][0-9]\-[0-9][0-9]\/[0-9][0-9][0-9][0-9]$/; 
+
+	var regexp= /^[0-9][0-9]\-[0-9][0-9]\/[0-9][0-9][0-9]$/; 
+
+	//var regexp= /^[0-9][0-9]\-[0-9][0-9]\/[0-9][0-9]$/; 
+	if (inv_no.search(regexp)==-1 && inv_no!="") 
+
+	{
+
+		alert("Invalid invoice number format.");
+
+		isvalid = false;
+
+	}
+
+	if(isvalid == true){
+		
+		if(inv_no != '')
+			document.form1.cart_order_id.value = cName+' INV#'+inv_no;
+		else
+			document.form1.cart_order_id.value = cName;
+		return true;
+	}
+	else
+
+		return false;
+
+  }
+</script>
+
+
+
+
+<center><Br><Br><Br><Br><font face=verdana size=2><b>
+
+Welcome To the eLuminous Technologies</b></font>
+
+
+
+<BR><BR><BR><BR>
+
+<font face=verdana size=2><b>Purchase Details Form
+
+<BR><BR>
+
+<table>
+
+   <form method="post" name="form1" action="https://www.2checkout.com/2co/buyer/purchase">
+
+   <input type=hidden name=sid value='67724'>
+
+	<tr>
+
+    	<td><font face=verdana size=2><b>Your Name :: </b></font></td>
+
+    	<td><input type="hidden" name="cart_order_id" /><input type="text" name="cName" /></td>
+
+	</tr>
+
+	<tr>
+
+        <td><font face=verdana size=2><b>Amount ::</b></font></td>
+
+        <td>
+
+            
+
+            <input type=text name=total >
+
+        </td>
+
+    </tr>
+<tr>
+            <td><font face=verdana size=2><b>Invoice No::</b></font></td>
+            <td><input type="text" name="inv_no" /><br />
+            <span style="color:#999; font-size:10px;">Example: 12-13/0078</span></td>
+        </tr>
+    <tr>
+
+    	<td align="middle" colspan=2>
+
+		<input name=submit type=submit value="Continue ->" onClick="return validate();">
+
+       	</td>
+
+    </tr>
+
+   </form>
+
+</table>
+
+<BR><BR>
+
+
+
+<a href="http://www.2Checkout.com">2Checkout.com</a>, Inc. is an authorized retailer of eLuminous Technologies.<BR>
+
+
+
+<BR><BR>
+
+
+
+
+
+<font face=verdana size=2><b> Thank you for using eLuminous Technologies</b></font>
+
+</html>

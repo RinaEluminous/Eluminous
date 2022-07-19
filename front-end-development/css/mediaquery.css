@@ -1,0 +1,917 @@
+@media (min-width: 1921px) {
+  .whyChoose .container,
+  .whyChoose .container-fluid {
+    max-width: 1920px;
+  }
+}
+@media (min-width: 1800px) {
+  .container {
+    padding: 0 !important;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+  .case_studies .container,
+  .container,
+  .homeBanner .bannerTopWrapper,
+  header .container {
+    max-width: 1610px;
+  }
+}
+@media (max-width: 1800px) {
+  .whyChoose .technologiesList li {
+    flex: 0 0 190px;
+  }
+  .whyChooseBanner {
+    background-position: -5% 0;
+  }
+}
+@media (max-width: 1700px) {
+  .whyChoose .technologiesList li {
+    flex: 0 0 185px;
+    padding: 20px 35px 3px;
+    height: 200px;
+  }
+  .whyChooseBanner {
+    background-position: -10%;
+  }
+}
+@media (max-width: 1600px) {
+  .whyChoose .technologiesList li .img img {
+    margin-bottom: 15px;
+    max-width: 50%;
+  }
+  .whyChoose .technologiesList li {
+    flex: 0 0 175px;
+    padding: 20px 20px 3px;
+    height: 200px;
+    font-size: 17px;
+  }
+  .whyChooseBanner {
+    background-position: -20%;
+  }
+  .homeBanner .text .title {
+    font-size: 72px;
+    line-height: 82px;
+  }
+}
+@media (max-width: 1500px) {
+  .whyChoose .technologiesList li {
+    flex: 0 0 160px;
+    padding: 20px 20px 3px;
+    height: 180px;
+  }
+  .whyChoose .technologiesList li .img img {
+    max-width: 40%;
+  }
+  .whyChooseBanner {
+    background-position: -30%;
+  }
+}
+@media (max-width: 1400px) {
+  .whyChooseBanner {
+    background-position: -40%;
+  }
+  .whyChoose .box {
+    width: 95%;
+    margin-left: auto;
+  }
+  .whyChoose .technologiesList li {
+    flex: 0 0 150px;
+  }
+  .whyChoose .box h4 {
+    margin-bottom: 40px;
+  }
+  .whyChooseList {
+    margin-bottom: 50px;
+  }
+  .contactGradientBg::before {
+    left: 0;
+  }
+  .contactForm {
+    overflow: inherit;
+  }
+  .whyChoose .technologiesList li .img img {
+    max-width: 45%;
+  }
+  .testimonials .box .review .top .right {
+    flex: 0 0 calc(25% - 0px);
+    padding-left: 15px;
+  }
+  .reviewSection,
+  .weOfferSection {
+    padding: 80px 0;
+  }
+  .weOfferSection .title {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 1399px) {
+  :root {
+    --para_18: 18px;
+    --para_16: 16px;
+    --heading_60: 48px;
+    --heading_42: 36px;
+    --heading_30: 24px;
+    --heading_24: 20px;
+    --heading_21: 18px;
+  }
+  .homeBanner .text .title {
+    font-size: 60px;
+    line-height: 73px;
+    margin-bottom: 30px;
+  }
+  .homeBanner {
+    padding: 180px 0 100px;
+  }
+  .subTitleLine {
+    padding-left: 70px;
+  }
+  .subTitleLine::before {
+    max-width: 50px;
+  }
+  .caseStudies .text {
+    padding: 30px 20px 25px;
+  }
+  .caseStudies .text h4 span {
+    font-size: 14px;
+  }
+  .caseStudies .text h4 {
+    line-height: 26px;
+    margin: 0;
+  }
+  .btn {
+    font-size: 18px;
+  }
+  .testimonials .box .review .left p {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .testimonials .box .reviewer .nameDetails {
+    font-size: 15px;
+  }
+  .testimonials .box .reviewer .name {
+    font-size: 22px;
+  }
+  .testimonials .rate_wrapper > span {
+    font-size: 26px;
+  }
+  .testimonials .review ul.rating_point li {
+    font-size: 16px;
+  }
+  .testimonials .rate_list li img {
+    max-width: 24px;
+  }
+  .owl-dots .owl-dot {
+    width: 17px;
+    height: 17px;
+  }
+  .testimonials .box .reviewer {
+    margin-top: 35px;
+  }
+  .weOfferSection .card .img {
+    width: 100px;
+    height: 100px;
+  }
+  .weOfferSection .frontEndIcon img {
+    max-width: 50px;
+  }
+  .weOfferSection .fullStackWebIcon img {
+    max-width: 65px;
+  }
+  .weOfferSection .psdToBootstrapIcon img {
+    max-width: 36px;
+  }
+  .weOfferSection .customApplicationIcon img {
+    max-width: 57px;
+  }
+  .weOfferSection .card p {
+    font-size: 15px;
+  }
+  .weOfferSection .card {
+    padding: 30px 20px 55px;
+  }
+  .technologySection {
+    margin: 100px 0 160px;
+  }
+  .reviewSection {
+    padding: 100px 0;
+  }
+  .whyChooseList li {
+    font-size: 19px;
+    background-size: 11px;
+  }
+  .contactForm h2 {
+    font-size: 100px;
+  }
+  .reviewServeGradientBg::before {
+    background-size: 60%;
+    top: -600px;
+  }
+  .contactGradientBg::before {
+    left: 0;
+    top: 50px;
+  }
+  .whyChooseGradientBg::before {
+    background-size: 60%;
+    top: -70px;
+    left: -110px;
+  }
+  .clutch_wrapper {
+    margin-bottom: 60px;
+  }
+  .homeBanner.CaseStudiesWrapper {
+    padding: 80px 0;
+  }
+  .whyChoose .technologiesList {
+    column-gap: 20px;
+  }
+}
+@media (max-width: 1300px) {
+  .whyChooseBanner {
+    background-position: -63%;
+  }
+  .whyChoose .technologiesList li {
+    flex: 0 0 140px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 1199px) {
+  :root {
+    --para_18: 18px;
+    --para_16: 16px;
+    --heading_60: 42px;
+    --heading_42: 32px;
+    --heading_30: 20px;
+    --heading_24: 20px;
+    --heading_21: 18px;
+  }
+  .homeBanner .text .title {
+    font-size: 60px;
+  }
+  .homeBanner .img {
+    max-width: 480px;
+    margin: 40px auto 0;
+  }
+  .homeBanner .text .title {
+    line-height: 72px;
+  }
+  .testimonials .reviewer .profile .img_circle {
+    max-width: 82px;
+    height: 82px;
+  }
+  .testimonials .box .review .left p {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .testimonials .box .common .project_heading {
+    font-size: 16px;
+  }
+  .testimonials .box .review .top .right {
+    padding-left: 55px;
+  }
+  .testimonials .box .review .left {
+    padding-right: 50px;
+  }
+  .owl-dots .owl-dot {
+    width: 15px;
+    height: 15px;
+  }
+  .weOfferSection .card {
+    padding: 28px 15px 45px;
+  }
+  .weOfferSection .frontEndIcon img {
+    max-width: 40px;
+  }
+  .weOfferSection .fullStackWebIcon img {
+    max-width: 55px;
+  }
+  .weOfferSection .psdToBootstrapIcon img {
+    max-width: 26px;
+  }
+  .weOfferSection .customApplicationIcon img {
+    max-width: 47px;
+  }
+  .weOfferSection .card .img {
+    width: 90px;
+    height: 90px;
+  }
+  .technologySection h4,
+  .whyChoose .box h4 {
+    line-height: 32px;
+  }
+  .reviewSection {
+    padding: 90px 0;
+  }
+  .whyChooseBanner {
+    background-image: none;
+  }
+  .whyChoose .technologiesList li {
+    flex: 0 0 150px;
+    height: 160px;
+  }
+  .whyChoose .box {
+    max-width: 760px;
+  }
+  .contactForm h2 {
+    font-size: 90px;
+  }
+  #planForm {
+    margin: 85px 0 60px;
+  }
+  footer .bottom_img_list {
+    margin: 0;
+    justify-content: center;
+  }
+  footer .left {
+    border-right: 0;
+    padding: 30px 0 0;
+    margin: 30px 0 0;
+    position: relative;
+  }
+  footer .left::before {
+    content: "";
+    max-width: 20%;
+    height: 1px;
+    background-color: rgb(var(--black));
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer .logoWrapper {
+    justify-content: center;
+  }
+  footer .left p {
+    padding-left: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contactGradientBg::before {
+    left: 0;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+  }
+  .technologiesList {
+    column-gap: 25px;
+  }
+  .technologiesList li {
+    font-size: 16px;
+  }
+  .whyChooseList li {
+    font-size: 18px;
+  }
+  .whyChoose .imgWrap {
+    padding-right: 20px;
+  }
+  .whyChoose .technologiesList {
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .technologySection {
+    margin: 90px 0 160px;
+  }
+  .caseStudies .text p {
+    font-size: 18px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .whyChoose .technologiesList li .img {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .homeBanner.CaseStudiesWrapper,
+  .reviewSection,
+  .weOfferSection {
+    padding: 80px 0;
+  }
+  .homeBanner {
+    padding: 180px 0 80px;
+  }
+  .caseStudies .text h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 991px) {
+  :root {
+    --para_18: 18px;
+    --para_16: 16px;
+    --heading_60: 38px;
+    --heading_42: 30px;
+    --heading_30: 19px;
+    --heading_24: 18px;
+    --heading_21: 17px;
+  }
+  .homeBanner .text .title {
+    font-size: 52px;
+    line-height: 56px;
+  }
+  .homeBanner .img {
+    max-width: 480px;
+    margin: 40px auto 0;
+    width: 350px;
+    transform: translate(-140px, -50px);
+  }
+  .caseStudies .text h4 {
+    min-height: 47px;
+  }
+  .caseStudies .card {
+    margin-bottom: 30px;
+  }
+  .testimonials .box .review .left {
+    flex: 0 0 70%;
+  }
+  .testimonials .box .review .top .right {
+    flex: 0 0 30%;
+    padding-left: 45px;
+  }
+  .testimonials .box .review .left {
+    padding-right: 30px;
+  }
+  .testimonials .box .review .left p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .technologySection {
+    margin: 60px 0 110px;
+  }
+  .weOfferSection .title {
+    margin-bottom: 60px;
+  }
+  .whyChoose .technologiesList li {
+    flex: 1;
+  }
+  .technologiesList {
+    column-gap: 25px;
+    flex-wrap: wrap;
+    row-gap: 25px;
+  }
+  .contactForm h2 {
+    font-size: 74px;
+  }
+  footer .left {
+    padding: 20px 0 0;
+    margin: 20px 0 0;
+  }
+  .whyChoose .imgWrap {
+    height: 550px;
+    max-width: 100%;
+    padding-right: 0;
+  }
+  .whyChoose .box {
+    margin-top: 50px;
+  }
+  .homeBanner {
+    padding: 180px 0 80px;
+  }
+  #planForm {
+    margin: 85px 0 60px;
+  }
+  .whyChoose .technologiesList li .img {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .whyChoose .box {
+    width: 100%;
+  }
+  .homeBanner.CaseStudiesWrapper,
+  .reviewSection,
+  .weOfferSection {
+    padding: 60px 0;
+  }
+  .caseStudies .title {
+    margin-bottom: 45px;
+  }
+  .caseStudies .col-sm-6:last-child .card,
+  .caseStudies .col-sm-6:nth-child(3) .card {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  :root {
+    --para_18: 18px;
+    --para_16: 16px;
+    --heading_60: 34px;
+    --heading_42: 30px;
+    --heading_30: 18px;
+    --heading_24: 17px;
+    --heading_21: 17px;
+  }
+  .contact_info li a {
+    font-size: 14px;
+  }
+  .homeBanner .text .title {
+    font-size: 46px;
+    line-height: 58px;
+    margin-bottom: 20px;
+  }
+  .clutch_wrapper {
+    margin-bottom: 40px;
+  }
+  .contact_info li .btn {
+    min-width: 180px;
+  }
+  .caseStudies .title {
+    margin-bottom: 55px;
+  }
+  .subTitleLine {
+    margin-bottom: 10px;
+  }
+  .homeBanner.CaseStudiesWrapper,
+  .reviewSection,
+  .weOfferSection {
+    padding: 60px 0;
+  }
+  .testimonials .box .review .left p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .testimonials .box .review .top .right {
+    padding-left: 30px;
+  }
+  .testimonials .box .reviewer .name {
+    font-size: 20px;
+  }
+  .testimonials .box .reviewer .nameDetails {
+    line-height: 20px;
+  }
+  .testimonials .box .review .left {
+    flex: 0 0 65%;
+  }
+  .testimonials .box .review .top .right {
+    flex: 0 0 35%;
+  }
+  .testimonials .rate_list li {
+    flex: 0 0 16%;
+  }
+  .testimonials .rate_wrapper > span {
+    font-size: 24px;
+  }
+  .testimonials .review ul.rating_point li,
+  .testimonials .review ul.rating_point li span {
+    font-size: 15px;
+  }
+  .technologySection {
+    margin: 60px 0 110px;
+  }
+  .whyChoose .technologiesList {
+    column-gap: 20px;
+  }
+  .whyChoose .technologiesList li {
+    padding: 20px 10px 3px;
+    height: 150px;
+  }
+  .contactForm {
+    padding-top: 25px;
+  }
+  #planForm {
+    margin: 55px 0 50px;
+  }
+  textarea.form-control {
+    min-height: 120px;
+    max-height: 120px;
+  }
+  .testimonials .reviewer .profile .img_circle {
+    max-width: 70px;
+    height: 70px;
+  }
+  .testimonials .box .reviewer .nameDetails {
+    font-size: 14px;
+  }
+  .technologiesList li .img img {
+    max-width: 47%;
+  }
+  .technologiesList li .img {
+    max-width: 100%;
+    height: 110px;
+  }
+  .subTitleLine {
+    padding-left: 50px;
+  }
+  .subTitleLine::before {
+    max-width: 35px;
+  }
+  footer .logoWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .logoWrapper .logo {
+    margin-bottom: 20px;
+  }
+  form#planForm .row {
+    max-width: 960px;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .homeBanner {
+    padding: 140px 0 60px;
+  }
+  .homeBanner .img {
+    max-width: 480px;
+    margin: 60px auto 0;
+    width: 100%;
+    transform: translate(0);
+  }
+  .whyChoose .technologiesList li {
+    font-size: 15px;
+  }
+  .contactGradientBg::before {
+    background-size: 140%;
+  }
+  .contactForm h2 {
+    font-size: 66px;
+  }
+  .testimonials .box .common .project_heading {
+    font-size: 14px;
+  }
+  .whyChoose .imgWrap {
+    height: 450px;
+  }
+  .homeBanner .text,
+  .homeBanner .text .title,
+  .homeBanner .text h4 {
+    text-align: center;
+  }
+  .clutch_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .testimonials .box .review .top {
+    display: block;
+  }
+  .testimonials .box .review .left {
+    max-width: 100%;
+    padding: 0 0 40px 0;
+    border-bottom: 1px solid rgb(var(--squant));
+    border-right: 0;
+    margin-bottom: 15px;
+  }
+  .testimonials .box .review .top .right {
+    max-width: 100%;
+    padding: 0;
+  }
+  .owl-dots {
+    margin-top: 40px;
+  }
+  .btn {
+    padding: 0 15px;
+  }
+  .technologiesList {
+    margin: 45px 0 50px 0;
+  }
+  .whyChoose .box h4 {
+    margin-bottom: 30px;
+  }
+  .form-control {
+    font-size: 14px !important;
+  }
+  .contactForm .btn {
+    min-width: 220px;
+  }
+  .whyChoose .technologiesList li .img {
+    font-size: 16px;
+  }
+  .whyChooseList li {
+    font-size: 17px;
+  }
+}
+@media (max-width: 575px) {
+  :root {
+    --para_18: 17px;
+    --para_16: 16px;
+    --heading_60: 34px;
+    --heading_42: 28px;
+    --heading_30: 17px;
+    --heading_24: 17px;
+    --heading_21: 16px;
+  }
+  .testimonials .box .review .left {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .testimonials .box .review .top .right {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .testimonials .box .review .left {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+    border-bottom: 1px solid rgb(var(--squant));
+    border-right: 0;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .owl-dots {
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .technologySection .title br {
+    display: none;
+  }
+  .testimonials .rate_list li {
+    flex: 0 0 12%;
+  }
+  .owl-dots .owl-dot {
+    width: 12px;
+    height: 12px;
+  }
+  .whyChoose .technologiesList li {
+    flex: 0 0 calc(50% - 10px);
+  }
+  .contactForm h2 {
+    font-size: 58px;
+  }
+  .caseStudies .card {
+    margin-bottom: 15px;
+  }
+  .weOfferSection .card h4 {
+    margin: 0 auto 16px;
+    max-width: 240px;
+  }
+  .technologySection {
+    margin: 50px 0 110px;
+  }
+  .technologySection h4,
+  .whyChoose .box h4 {
+    line-height: 26px;
+  }
+  .technologiesList {
+    margin: 45px 0 50px 0;
+  }
+  .whyChooseList li {
+    background-position: left 5px;
+    font-size: 16px;
+  }
+  .whyChooseList {
+    row-gap: 10px;
+  }
+  .whyChoose .technologiesList {
+    margin: 35px 0 0 0;
+  }
+  .contactForm h2 {
+    font-size: 54px;
+  }
+  .contactForm {
+    padding-top: 20px;
+  }
+  .g-recaptcha.brochure__form__captcha {
+    transform: scale(0.8) translateX(0);
+    margin: 0 auto;
+  }
+  .captchWrapper {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeBanner {
+    padding: 120px 0 50px;
+  }
+  footer .bottom_img_list {
+    column-gap: 15px;
+  }
+  footer .logoWrapper .logo {
+    max-width: 165px;
+  }
+  footer .left p {
+    line-height: 16px;
+  }
+  .caseStudies .title,
+  .contactForm .form-group.red_btn,
+  .homeBanner,
+  .technologySection,
+  .technologySection .title,
+  .technologySection h4,
+  .whyChoose .box h2,
+  .whyChoose .box h4,
+  .whyChoose .title {
+    text-align: center;
+  }
+  .technologiesList {
+    justify-content: center;
+  }
+  .container-fluid > .subTitleLine,
+  .container > .subTitleLine {
+    padding: 0 0 15px 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .container-fluid > .subTitleLine::before,
+  .container > .subTitleLine::before {
+    max-width: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: auto;
+  }
+  .whyChooseList {
+    max-width: 380px;
+    margin: 0 auto 50px;
+  }
+  .caseStudies .text {
+    text-align: left;
+  }
+  .whyChoose .box {
+    margin-top: 40px;
+  }
+  .caseStudies .text p {
+    font-size: 16px;
+  }
+  .btn {
+    padding: 0 15px;
+  }
+  .caseStudies .col-sm-6:nth-child(3) .card {
+    margin-bottom: 15px;
+  }
+  .caseStudies .text p {
+    font-size: 16px;
+  }
+  .reviewSection {
+    padding: 20px 0 50px;
+  }
+  .testimonials .box .review .left {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 480px) {
+  :root {
+    --para_18: 17px;
+    --para_16: 16px;
+    --heading_60: 31px;
+    --heading_42: 28px;
+    --heading_30: 17px;
+    --heading_24: 17px;
+    --heading_21: 16px;
+  }
+  .homeBanner .text .title {
+    font-size: 46px;
+    line-height: 42px;
+  }
+  .homeBanner .text h4 br {
+    display: none;
+  }
+  .subTitleLine::before {
+    max-width: 20px;
+  }
+  .caseStudies .title {
+    margin-bottom: 40px;
+  }
+  .homeBanner.CaseStudiesWrapper,
+  .reviewSection,
+  .weOfferSection {
+    padding: 50px 0;
+  }
+  .testimonials .reviewer .profile .img_circle {
+    max-width: 50px;
+    height: 50px;
+  }
+  .testimonials .box .reviewer .name {
+    font-size: 18px;
+  }
+  .testimonials .box .reviewer .nameDetails {
+    font-size: 13px;
+  }
+  .form-control {
+    font-size: 15px !important;
+  }
+  .whyChoose .imgWrap {
+    height: 350px;
+  }
+  body.thank-you section#home_banner p {
+    margin: 20px 0 20px 0;
+  }
+  body.thank-you section#home_banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 50px;
+  }
+  .btn {
+    /* max-width: 100% !important;
+    min-width: 100% !important;
+    width: 100% !important; */
+  }
+  .clutch_wrapper ul {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .homeBanner .text .title {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .bottom_footer .copy_right {
+    text-align: center !important;
+  }
+}

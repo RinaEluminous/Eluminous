@@ -1,0 +1,714 @@
+@media (min-width: 1800px) {
+    .container {
+        padding: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1685px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .caseStudies .container,
+    .contactForm .container {
+        max-width: 1610px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .homeBanner .img .imgText {
+        transform: scale(0.9) translate(30px, 0);
+    }
+}
+
+@media (max-width: 1600px) {
+    .expertise .container,
+    .caseStudies .container,
+    .contactForm .container,
+    .reviewSection .container,
+    .homeBanner .container {
+      max-width: calc(1470px - 30px) !important;
+    }
+    .reviewSection .container {
+      max-width: calc(1440px - 30px) !important;
+    }
+    .homeBanner .text .title {
+        font-size: 72px;
+        line-height: 82px;
+        margin-bottom: 26px;
+    }
+    .homeBanner .text .subTitle {
+        font-size: 26px;
+        margin: 0 0 40px 0;
+    }
+    .homeBanner .text .subSubTitle {
+        font-size: 20px;
+        line-height: 32px;
+        margin: 0 0 56px 0;
+    }
+    .homeBanner .list li span .text {
+        font-size: 16px;
+    }
+    .btn {
+        font-size: 20px;
+        padding: 0 20px;
+        min-height: 64px;
+    }
+    .homeBanner .text .btn {
+        min-width: 340px;
+    }
+    .homeBanner .list li span .icon {
+        max-width: 56px;
+    }
+    .expertise .title {
+        font-size: 42px;
+        margin: 0 0 22px 0;
+    }
+    .expertise .subTitle {
+        font-size: 19px;
+    }
+    .expertise .box span object {
+        max-width: 66px;
+    }
+    .expertise .box>.title {
+        font-size: 24px;
+        margin: 0 0 30px 0;
+    }
+    .expertise .box>p {
+        font-size: 19px;
+        line-height: 32px;
+    }
+    .whyTech {
+        margin: 80px 0;
+        margin-top: 40px;
+    }
+    section {
+        padding: 60px 0;
+    }
+    .whyTech .text .title {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 0 36px 0;
+    }
+    .whyTech .text .subTitle {
+        font-size: 19px;
+    }
+    .whyTech .text .btnTitle {
+        font-size: 20px;
+    }
+    .whyTech .bottomWrapper .box .title {
+        font-size: 20px;
+    }
+    .reviewSection .container {
+        padding: 80px 150px;
+    }
+    .reviewSection {
+        margin: 0 0 60px 0;
+    }
+    .testimonials .box .review .left p {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .testimonials .box .review .left {
+        max-width: calc(73% - 0px);
+    }
+    .testimonials .box .reviewer .name {
+        font-size: 22px;
+    }
+    .testimonials .box .reviewer .nameDetails {
+        font-size: 15px;
+    }
+    .testimonials .rate_list li object {
+        max-width: 24px;
+    }
+    .testimonials .rate_wrapper>span {
+        font-size: 26px;
+    }
+    .contactForm .title {
+        font-size: 52px;
+    }
+    .contactForm .btn {
+        min-width: 210px;
+    }
+    .whyTech .img {
+        width: 700px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1440px) {
+    .homeBanner {
+        padding: 220px 0 50px;
+    }
+    .whyTech .img {
+        width: 100%;
+    }
+    .whyTech .container {
+        padding: 80px 50px 60px;
+    }
+    .whyTech .bottomWrapper {
+        margin: 80px 0 0 0;
+    }
+    .reviewSection .container {
+        padding: 80px 100px;
+    }
+    .contactForm .title {
+        font-size: 48px;
+    }
+    .btn {
+        font-size: 18px;
+    }
+    .homeBanner .text .title {
+        font-size: 66px;
+        line-height: 78px;
+    }
+    .homeBanner .text .subTitle {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .homeBanner .text .subSubTitle {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0 0 40px 0;
+    }
+    .homeBanner .list {
+        margin: 0;
+        padding: 25px 0;
+    }
+    .expertise .title {
+        font-size: 40px;
+    }
+    .expertise .subTitle {
+        max-width: 800px;
+    }
+    .expertise .box>.title {
+        font-size: 22px;
+        margin: 0 0 26px 0;
+    }
+    .expertise .box>p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .whyTech .text {
+        padding: 0 0 0 80px;
+    }
+    .testimonials .box .review .left {
+        max-width: calc(72% - 0px);
+    }
+    .testimonials .box .review .left p {
+        font-size: 24px;
+    }
+    .testimonials .box .reviewer .name {
+        font-size: 20px;
+    }
+    .testimonials .box .reviewer .nameDetails {
+        font-size: 15px;
+    }
+    .testimonials .box .review .top .right {
+        padding-left: 25px;
+    }
+    .testimonials .review ul.rating_point li {
+        font-size: 16px;
+    }
+    .testimonials .review ul.rating_point li span {
+        font-size: 16px;
+    }
+    .reviewSection {
+        margin: 0 0 60px 0;
+    }
+    .owl-dots {
+        margin-top: 40px;
+    }
+    .caseStudies .container,
+    .contactForm .container {
+        padding: 0 15px;
+    }
+    .caseStudies .title {
+        font-size: 40px;
+    }
+    .homeBanner .img .imgText {
+        transform: scale(0.85) translate(30px, -40px);
+    }
+}
+
+@media (max-width: 1199px) {
+    .caseStudies .title {
+        font-size: 36px;
+    }
+    .caseStudies .text .btn,
+    .whyTech .text .btn {
+        font-size: 16px;
+    }
+    .caseStudies .text p {
+        font-size: 17px;
+    }
+    .caseStudies .text {
+        padding: 30px 15px 30px;
+    }
+    .caseStudies .text .title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .caseStudies .text h4 span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .reviewSection .container {
+        padding: 60px 80px;
+    }
+    .whyTech .container {
+        padding: 60px 20px 50px;
+    }
+    .homeBanner .text .title {
+        font-size: 60px;
+        line-height: 72px;
+    }
+    .homeBanner .text .subTitle {
+        font-size: 22px;
+    }
+    .expertise .title {
+        font-size: 36px;
+    }
+    .expertise .subTitle {
+        max-width: 680px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .expertise .box>.title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .expertise .box>p {
+        line-height: 28px;
+    }
+    .whyTech {
+        margin: 20px 0 60px;
+    }
+    .homeBanner {
+        padding: 180px 0 30px;
+    }
+    .homeBanner .text {
+      padding: 0;
+    }
+    .whyTech .bottomWrapper .box {
+        padding: 25px;
+    }
+    .whyTech .bottomWrapper .box .title {
+        font-size: 18px;
+        margin: 0 0 20px 0;
+    }
+    .testimonials .box .review .left p {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .contactForm .title {
+        font-size: 44px;
+    }
+    .contactForm .subTitle {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    textarea.form-control {
+        min-height: 110px;
+        max-height: 100px;
+    }
+    .g-recaptcha.brochure__form__captcha {
+        transform: scale(0.8) translate(-30px, -7px);
+    }
+    .contactForm {
+        padding: 40px 0 50px !important;
+        margin-top: 0 !important;
+    }
+    .faq_wrapper .card-header h5 button {
+        padding: 15px 50px 15px 30px;
+        font-size: 17px;
+    }
+    .faq_wrapper .card-header h5 button[aria-expanded="false"]::before,
+    .faq_wrapper .card-header h5 button[aria-expanded="true"]::before {
+        font-size: 26px;
+    }
+    .homeBanner .img {
+        padding: 0;
+    }
+    .homeBanner .img .imgText {
+        transform: scale(1) translate(0, 0);
+        position: static;
+        height: auto;
+        min-height: auto;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    .homeBanner .list {
+        border-radius: 0 0 10px 10px;
+    }
+    .homeBanner .img .imgText p {
+        max-width: 100%;
+    }
+    .testimonials .reviewer .profile .img_circle {
+        max-width: 82px;
+        height: 82px;
+    }
+}
+
+@media (max-width: 991px) {
+    .homeBanner .img {
+        margin: 0 auto 30px;
+    }
+    .homeBanner .text .title {
+        font-size: 56px;
+        line-height: 68px;
+    }
+    .homeBanner .text {
+        text-align: center;
+    }
+    .expertise .title {
+        text-align: center;
+    }
+    .expertise .subTitle {
+        text-align: center;
+    }
+    .expertise .box>.title {
+        text-align: left;
+    }
+    .expertise .box {
+        margin: 0 0 50px 0;
+    }
+    .expertise {
+        padding: 60px 0;
+    }
+    .whyTech .text {
+        margin: 0 0 60px 0;
+    }
+    .whyTech .bottomWrapper {
+        margin: 40px 0 0 0;
+    }
+    .whyTech .bottomWrapper .box {
+        margin: 0 0 30px 0;
+    }
+    .whyTech .container {
+        padding: 60px 15px 20px;
+    }
+    .whyTech .bottomWrapper {
+        margin: 30px 0 0 0;
+    }
+    .reviewSection .container {
+        padding: 60px 50px;
+    }
+    .testimonials .box .review .left {
+        max-width: calc(65% - 0px);
+        padding-right: 40px;
+    }
+    .testimonials .box .review .left p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .testimonials .box .reviewer {
+        margin-top: 30px;
+    }
+    .contactForm .img {
+        max-width: 520px;
+        margin: 0 auto 60px;
+    }
+    .contact-form-top {
+        margin: 0 auto;
+    }
+    #planForm {
+        margin: 60px 0 0 0;
+    }
+    .whyTech .bottomWrapper .box span {
+        margin: 0 0 15px 0;
+    }
+    .caseStudies .card {
+        margin-bottom: 30px;
+    }
+    .caseStudies .card {
+        margin-bottom: 30px;
+    }
+    .caseStudies .col-sm-6:nth-child(3) .card,
+    .caseStudies .col-sm-6:nth-child(4) .card {
+        margin-bottom: 0;
+    }
+    .caseStudies {
+        padding-bottom: 50px;
+    }
+    .homeBanner {
+        padding: 130px 0 30px;
+    }
+    .homeBanner .img {
+        max-width: 745px;
+    }
+    .faq_wrapper .card-header h5 button {
+        padding: 15px 50px 15px 20px;
+        font-size: 16px;
+    }
+    .faq_wrapper .card-body {
+        padding: 20px 20px;
+    }
+    .faq_wrapper .card-header h5 button[aria-expanded="false"]::before,
+    .faq_wrapper .card-header h5 button[aria-expanded="true"]::before {
+        right: 20px;
+    }
+    .homeBanner .img .imgText {
+        width: 100%;
+        max-width: 611px;
+    }
+    .homeBanner .img .imgText,
+    .homeBanner .list {
+        margin: 0 auto;
+    }
+    .homeBanner .img {
+        text-align: center;
+    }
+    .homeBanner .img .imgText p {
+        max-width: 80%;
+        text-align: left;
+    }
+    .expertise .title {
+        max-width: 575px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .expertise .subTitle,
+    .homeBanner .text .subSubTitle {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .caseStudies {
+        /* padding-bottom: 10px; */
+    }
+    .homeBanner .text .title {
+        font-size: 46px;
+        line-height: 58px;
+    }
+    .homeBanner .text .subTitle {
+        font-size: 20px;
+        margin: 0 0 26px 0;
+    }
+    .expertise .box>p,
+    .homeBanner .text .subSubTitle {
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .btn {
+        font-size: 17px;
+        min-height: 60px;
+    }
+    .homeBanner .text .btn {
+        min-width: 300px;
+    }
+    .expertise {
+        padding: 30px 0 60px;
+    }
+    .expertise .title {
+        max-width: 460px;
+        margin: 0 auto 20px;
+    }
+    .expertise .subTitle {
+        font-size: 17px;
+        line-height: 26px;
+        max-width: 500px;
+        margin: 0 auto 60px;
+    }
+    .expertise .box>.title {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0 0 22px 0;
+    }
+    .testimonials .box .review .left {
+        max-width: 100%;
+        padding: 0;
+        border-right: 0;
+        border-bottom: 1px solid rgba(var(--white), 0.32);
+        padding: 0 0 40px 0;
+    }
+    .reviewSection .container {
+        padding: 50px 30px;
+    }
+    .testimonials .box .review .top .right {
+        flex: 0 0 100%;
+        padding: 15px 0 0 0;
+    }
+    .owl-dots .owl-dot {
+        width: 16px;
+        height: 16px;
+    }
+    .reviewSection {
+        margin: 0 0 50px 0;
+    }
+    .contactForm .img {
+        max-width: 550px;
+    }
+    .whyTech {
+        margin: 20px 0 50px;
+    }
+    .caseStudies .title {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .homeBanner .list li span .text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .testimonials .reviewer .profile .img_circle {
+        max-width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 575px) {
+    .caseStudies {
+        /* padding-bottom: 0; */
+    }
+    .homeBanner .text .title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .homeBanner .text .subTitle {
+        font-size: 18px;
+        max-width: 250px;
+        margin: 0 auto 26px;
+    }
+    .expertise .box>p,
+    .homeBanner .text .subSubTitle {
+        font-size: 16px;
+        text-align: center;
+    }
+    .expertise .title {
+        font-size: 28px;
+    }
+    .expertise .subTitle {
+        font-size: 16px;
+    }
+    .whyTech .text {
+        padding: 0;
+    }
+    .whyTech .text .subTitle::before {
+        left: 0;
+        bottom: 0;
+        top: auto;
+    }
+    .whyTech .text .subTitle {
+        padding: 0 0 10px 0;
+    }
+    .whyTech .text p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .whyTech .text .title {
+        margin: 0 0 26px 0;
+        font-size: 24px;
+    }
+    .owl-dots {
+        margin-top: 20px;
+    }
+    .contactForm .title {
+        font-size: 38px;
+    }
+    .contactForm .subTitle {
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 320px;
+    }
+    #planForm {
+        margin: 40px 0 0 0;
+    }
+    .testimonials .box .review .left p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .reviewSection .container {
+        padding: 40px 20px;
+    }
+    .testimonials .box .reviewer .nameDetails {
+        font-size: 14px;
+    }
+    .testimonials .box .reviewer .name {
+        font-size: 18px;
+    }
+    .testimonials .rate_wrapper>span {
+        font-size: 22px;
+    }
+    .testimonials .rate_list li object {
+        max-width: 20px;
+    }
+    .g-recaptcha.brochure__form__captcha {
+        transform: scale(0.8) translate(0, -7px);
+    }
+    .whyTech .container {
+        padding: 50px 15px 20px;
+    }
+    .caseStudies .title {
+        font-size: 28px;
+        margin-bottom: 22px;
+    }
+    .card,
+    .caseStudies .col-sm-6:nth-child(3) .card {
+        margin-bottom: 30px;
+    }
+    .caseStudies .col-sm-6:nth-child(4) {
+        margin-bottom: 0;
+    }
+    .homeBanner .text .btn {
+        min-width: 260px;
+    }
+    .contact-form-top {
+        max-width: 100%;
+    }
+    .homeBanner .img .imgText p {
+        max-width: 100%;
+    }
+    .caseStudies .text .title {
+        min-height: initial;
+    }
+    .expertise .box {
+        max-width: 350px;
+        margin: 0 auto 50px;
+        text-align: center;
+    }
+    .expertise .box>.title {
+        text-align: center;
+    }
+    .whyTech .text {
+        text-align: center;
+    }
+    .whyTech .text .subTitle::before {
+        right: 0;
+        margin: 0 auto;
+    }
+    .whyTech .bottomWrapper .box {
+        text-align: center;
+        max-width: 350px;
+        margin: 0 auto 30px;
+    }
+    .caseStudies .title,
+    .portfolio__wrapper .title {
+        text-align: center;
+    }
+    .portfolio__box {
+        max-width: 350px;
+        margin: 0 auto 30px;
+    }
+    .caseStudies .card {
+        max-width: 350px;
+        margin: 0 auto 30px;
+    }
+    .caseStudies .text p {
+        text-align: center;
+    }
+    
+    .expertise {
+        padding: 30px 0 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .testimonials .reviewer .profile .img_circle {
+        max-width: 50px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,258 @@
+/* cssid=2                            */   
+/* WARNING!! this file is dynamicaly generated changes will  */ 
+/* be overwritten with every change to the admin screen.      */ 
+/* You can add css to this file in the admin screen.       */ 
+
+
+
+
+#follow.right {width:32px;position:fixed; right:0; top:100px;background-color:#00467F;padding:10px 0;font-family:impact,charcoal,arial, helvetica,sans-serif;-moz-border-radius-topleft: 5px;-webkit-border-top-left-radius:5px;-moz-border-radius-bottomleft:5px;-webkit-border-bottom-left-radius:5px;border:2px solid #00467F;border-right-width:0}#follow.right ul {padding:0; margin:0; list-style-type:none !important;font-size:24px;color:black;}
+#follow.right ul li {padding-bottom:10px;list-style-type:none !important;margin:0 4px;}
+#follow.right ul li.volgonze {}
+#follow.right ul li.volgonze img {border-width:0;display:block;overflow:hidden; background:transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/images/impact/volgonze-right.png) no-repeat -192px 0px;height:108px;width:23px;}
+#follow.right ul li a {display:block;}
+/* start text replacemnt words*/
+#follow.right ul li.text_replace a.rss {background:transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/images/impact/word-strip-right.png) no-repeat; background-position:-593px -35px;height:31px;width:17px}
+#follow.right ul li.text_replace a.rss:hover {background-position:-572px -35px;}
+/* end text replacemnt words */ 
+#follow.right ul li.volgonze span, #follow ul li a span {display:none}.size16 .digg{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/digg.png) no-repeat}
+.size16 .twitter{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/twitter.png) no-repeat}
+.size16 .facebook{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/facebook.png) no-repeat}
+.size16 .stumble{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/stumbleupon.png) no-repeat}
+.size16 .reddit{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/reddit.png) no-repeat}
+.size16 .delicious{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/delicious.png) no-repeat}
+.size16 .hyves{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/hyves.png) no-repeat}
+.size16 .myspace{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/myspace.png) no-repeat}
+.size16 .linkedin{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/linkedin.png) no-repeat}
+.size16 .rss{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/rss.png) no-repeat}
+.size16 .youtube{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/youtube.png) no-repeat}
+.size16 .yelp{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/yelp.png) no-repeat}
+.size16 .flickr{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/flickr.png) no-repeat}
+.size16 .mixx{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/mixx.png) no-repeat}
+.size16 .email{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/email.png) no-repeat}
+.size16 .print{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/print.png) no-repeat}
+.size16 .google_buzz{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/google_buzz.png) no-repeat}
+.size16 .yahoo_buzz{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/yahoobuzz.png) no-repeat}
+.size16 .feedback{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/feedback.png) no-repeat}
+.size16 .lastfm{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/lastfm.png) no-repeat}
+.size16 .newsletter{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/newsletter.png) no-repeat}
+.size16 .xfire{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/xfire.png) no-repeat}
+.size16 .tumblr{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/tumblr.png) no-repeat}
+.size16 .foursquare{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/foursquare.png) no-repeat}
+.size16 .vimeo{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/vimeo.png) no-repeat}
+.size16 .dailymotion{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/dailymotion.png) no-repeat}
+.size16 .soundcloud{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/soundcloud.png) no-repeat}
+.size16 .orkut{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/orkut.png) no-repeat}
+.size16 .plaxo{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/plaxo.png) no-repeat}
+.size16 .coconex{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/coconex.png) no-repeat}
+.size16 .xing{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/xing.png) no-repeat}
+.size16 .vkontakte{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/vkontakte.png) no-repeat}
+.size16 .gowalla{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/gowalla.png) no-repeat}
+.size16 .sphinn{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/sphinn.png) no-repeat}
+.size16 .itunes{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/itunes.png) no-repeat}
+.size16 .picasa{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/picasa.png) no-repeat}
+.size16 .bandcamp{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/bandcamp.png) no-repeat}
+.size16 .moddb{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/moddb.png) no-repeat}
+.size16 .imdb{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/imdb.png) no-repeat}
+.size16 .nujij{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/nujij.png) no-repeat}
+.size16 .bookmark{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/bookmark.png) no-repeat}
+.size16 .deviantart{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/16/deviantart.png) no-repeat}
+.size24 .digg{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/digg.png) no-repeat}
+.size24 .twitter{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/twitter.png) no-repeat}
+.size24 .facebook{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/facebook.png) no-repeat}
+.size24 .stumble{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/stumbleupon.png) no-repeat}
+.size24 .reddit{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/reddit.png) no-repeat}
+.size24 .delicious{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/delicious.png) no-repeat}
+.size24 .hyves{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/hyves.png) no-repeat}
+.size24 .myspace{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/myspace.png) no-repeat}
+.size24 .linkedin{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/linkedin.png) no-repeat}
+.size24 .rss{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/rss.png) no-repeat}
+.size24 .youtube{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/youtube.png) no-repeat}
+.size24 .yelp{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/yelp.png) no-repeat}
+.size24 .flickr{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/flickr.png) no-repeat}
+.size24 .mixx{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/mixx.png) no-repeat}
+.size24 .email{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/email.png) no-repeat}
+.size24 .print{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/print.png) no-repeat}
+.size24 .google_buzz{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/google_buzz.png) no-repeat}
+.size24 .yahoo_buzz{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/yahoobuzz.png) no-repeat}
+.size24 .feedback{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/feedback.png) no-repeat}
+.size24 .lastfm{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/lastfm.png) no-repeat}
+.size24 .newsletter{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/newsletter.png) no-repeat}
+.size24 .xfire{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/xfire.png) no-repeat}
+.size24 .tumblr{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/tumblr.png) no-repeat}
+.size24 .foursquare{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/foursquare.png) no-repeat}
+.size24 .vimeo{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/vimeo.png) no-repeat}
+.size24 .dailymotion{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/dailymotion.png) no-repeat}
+.size24 .soundcloud{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/soundcloud.png) no-repeat}
+.size24 .orkut{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/orkut.png) no-repeat}
+.size24 .plaxo{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/plaxo.png) no-repeat}
+.size24 .coconex{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/coconex.png) no-repeat}
+.size24 .xing{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/xing.png) no-repeat}
+.size24 .vkontakte{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/vkontakte.png) no-repeat}
+.size24 .gowalla{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/gowalla.png) no-repeat}
+.size24 .sphinn{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/sphinn.png) no-repeat}
+.size24 .itunes{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/itunes.png) no-repeat}
+.size24 .picasa{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/picasa.png) no-repeat}
+.size24 .bandcamp{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/bandcamp.png) no-repeat}
+.size24 .moddb{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/moddb.png) no-repeat}
+.size24 .imdb{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/imdb.png) no-repeat}
+.size24 .nujij{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/nujij.png) no-repeat}
+.size24 .bookmark{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/bookmark.png) no-repeat}
+.size24 .deviantart{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/24/deviantart.png) no-repeat}
+.size32 .digg{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/digg.png) no-repeat}
+.size32 .twitter{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/twitter.png) no-repeat}
+.size32 .facebook{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/facebook.png) no-repeat}
+.size32 .stumble{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/stumbleupon.png) no-repeat}
+.size32 .reddit{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/reddit.png) no-repeat}
+.size32 .delicious{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/delicious.png) no-repeat}
+.size32 .hyves{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/hyves.png) no-repeat}
+.size32 .myspace{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/myspace.png) no-repeat}
+.size32 .linkedin{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/linkedin.png) no-repeat}
+.size32 .rss{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/rss.png) no-repeat}
+.size32 .youtube{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/youtube.png) no-repeat}
+.size32 .yelp{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/yelp.png) no-repeat}
+.size32 .flickr{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/flickr.png) no-repeat}
+.size32 .mixx{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/mixx.png) no-repeat}
+.size32 .email{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/email.png) no-repeat}
+.size32 .print{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/print.png) no-repeat}
+.size32 .google_buzz{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/google_buzz.png) no-repeat}
+.size32 .yahoo_buzz{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/yahoobuzz.png) no-repeat}
+.size32 .feedback{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/feedback.png) no-repeat}
+.size32 .lastfm{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/lastfm.png) no-repeat}
+.size32 .newsletter{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/newsletter.png) no-repeat}
+.size32 .xfire{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/xfire.png) no-repeat}
+.size32 .tumblr{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/tumblr.png) no-repeat}
+.size32 .foursquare{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/foursquare.png) no-repeat}
+.size32 .vimeo{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/vimeo.png) no-repeat}
+.size32 .dailymotion{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/dailymotion.png) no-repeat}
+.size32 .soundcloud{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/soundcloud.png) no-repeat}
+.size32 .orkut{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/orkut.png) no-repeat}
+.size32 .plaxo{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/plaxo.png) no-repeat}
+.size32 .coconex{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/coconex.png) no-repeat}
+.size32 .xing{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/xing.png) no-repeat}
+.size32 .vkontakte{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/vkontakte.png) no-repeat}
+.size32 .gowalla{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/gowalla.png) no-repeat}
+.size32 .sphinn{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/sphinn.png) no-repeat}
+.size32 .itunes{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/itunes.png) no-repeat}
+.size32 .picasa{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/picasa.png) no-repeat}
+.size32 .bandcamp{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/bandcamp.png) no-repeat}
+.size32 .moddb{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/moddb.png) no-repeat}
+.size32 .imdb{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/imdb.png) no-repeat}
+.size32 .nujij{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/nujij.png) no-repeat}
+.size32 .bookmark{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/bookmark.png) no-repeat}
+.size32 .deviantart{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/32/deviantart.png) no-repeat}
+.size48 .digg{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/digg.png) no-repeat}
+.size48 .twitter{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/twitter.png) no-repeat}
+.size48 .facebook{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/facebook.png) no-repeat}
+.size48 .stumble{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/stumbleupon.png) no-repeat}
+.size48 .reddit{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/reddit.png) no-repeat}
+.size48 .delicious{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/delicious.png) no-repeat}
+.size48 .hyves{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/hyves.png) no-repeat}
+.size48 .myspace{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/myspace.png) no-repeat}
+.size48 .linkedin{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/linkedin.png) no-repeat}
+.size48 .rss{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/rss.png) no-repeat}
+.size48 .youtube{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/youtube.png) no-repeat}
+.size48 .yelp{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/yelp.png) no-repeat}
+.size48 .flickr{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/flickr.png) no-repeat}
+.size48 .mixx{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/mixx.png) no-repeat}
+.size48 .email{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/email.png) no-repeat}
+.size48 .print{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/print.png) no-repeat}
+.size48 .google_buzz{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/google_buzz.png) no-repeat}
+.size48 .yahoo_buzz{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/yahoobuzz.png) no-repeat}
+.size48 .feedback{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/feedback.png) no-repeat}
+.size48 .lastfm{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/lastfm.png) no-repeat}
+.size48 .newsletter{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/newsletter.png) no-repeat}
+.size48 .xfire{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/xfire.png) no-repeat}
+.size48 .tumblr{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/tumblr.png) no-repeat}
+.size48 .foursquare{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/foursquare.png) no-repeat}
+.size48 .vimeo{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/vimeo.png) no-repeat}
+.size48 .dailymotion{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/dailymotion.png) no-repeat}
+.size48 .soundcloud{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/soundcloud.png) no-repeat}
+.size48 .orkut{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/orkut.png) no-repeat}
+.size48 .plaxo{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/plaxo.png) no-repeat}
+.size48 .coconex{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/coconex.png) no-repeat}
+.size48 .xing{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/xing.png) no-repeat}
+.size48 .vkontakte{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/vkontakte.png) no-repeat}
+.size48 .gowalla{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/gowalla.png) no-repeat}
+.size48 .sphinn{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/sphinn.png) no-repeat}
+.size48 .itunes{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/itunes.png) no-repeat}
+.size48 .picasa{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/picasa.png) no-repeat}
+.size48 .bandcamp{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/bandcamp.png) no-repeat}
+.size48 .moddb{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/moddb.png) no-repeat}
+.size48 .imdb{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/imdb.png) no-repeat}
+.size48 .nujij{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/nujij.png) no-repeat}
+.size48 .bookmark{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/bookmark.png) no-repeat}
+.size48 .deviantart{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/48/deviantart.png) no-repeat}
+.size60 .digg{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/digg.png) no-repeat}
+.size60 .twitter{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/twitter.png) no-repeat}
+.size60 .facebook{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/facebook.png) no-repeat}
+.size60 .stumble{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/stumbleupon.png) no-repeat}
+.size60 .reddit{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/reddit.png) no-repeat}
+.size60 .delicious{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/delicious.png) no-repeat}
+.size60 .hyves{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/hyves.png) no-repeat}
+.size60 .myspace{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/myspace.png) no-repeat}
+.size60 .linkedin{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/linkedin.png) no-repeat}
+.size60 .rss{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/rss.png) no-repeat}
+.size60 .youtube{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/youtube.png) no-repeat}
+.size60 .yelp{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/yelp.png) no-repeat}
+.size60 .flickr{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/flickr.png) no-repeat}
+.size60 .mixx{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/mixx.png) no-repeat}
+.size60 .email{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/email.png) no-repeat}
+.size60 .print{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/print.png) no-repeat}
+.size60 .google_buzz{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/google_buzz.png) no-repeat}
+.size60 .yahoo_buzz{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/yahoobuzz.png) no-repeat}
+.size60 .feedback{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/feedback.png) no-repeat}
+.size60 .lastfm{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/lastfm.png) no-repeat}
+.size60 .newsletter{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/newsletter.png) no-repeat}
+.size60 .xfire{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/xfire.png) no-repeat}
+.size60 .tumblr{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/tumblr.png) no-repeat}
+.size60 .foursquare{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/foursquare.png) no-repeat}
+.size60 .vimeo{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/vimeo.png) no-repeat}
+.size60 .dailymotion{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/dailymotion.png) no-repeat}
+.size60 .soundcloud{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/soundcloud.png) no-repeat}
+.size60 .orkut{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/orkut.png) no-repeat}
+.size60 .plaxo{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/plaxo.png) no-repeat}
+.size60 .coconex{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/coconex.png) no-repeat}
+.size60 .xing{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/xing.png) no-repeat}
+.size60 .vkontakte{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/vkontakte.png) no-repeat}
+.size60 .gowalla{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/gowalla.png) no-repeat}
+.size60 .sphinn{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/sphinn.png) no-repeat}
+.size60 .itunes{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/itunes.png) no-repeat}
+.size60 .picasa{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/picasa.png) no-repeat}
+.size60 .bandcamp{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/bandcamp.png) no-repeat}
+.size60 .moddb{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/moddb.png) no-repeat}
+.size60 .imdb{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/imdb.png) no-repeat}
+.size60 .nujij{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/nujij.png) no-repeat}
+.size60 .bookmark{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/bookmark.png) no-repeat}
+.size60 .deviantart{background: transparent url(http://www.city-zen-clothing.com/wp-content/plugins/share-and-follow/default/60/deviantart.png) no-repeat}
+.share {margin:0 3px 3px 0;}
+.phat span {display:inline;}
+ul.row li {float:left;list-style-type:none;}
+li.icon_text a {background-position:left center;display:block}
+li.text_only a {background-image:none !important;padding-left:0;}
+li.iconOnly a span.head {display:none}
+li.iconOnly a {display:block;margin:0 3px 3px 0; padding:0 !important;}
+#follow.left li.iconOnly a,  #follow.right li.iconOnly a {display:block;margin:0 auto; padding:0 !important;    background-color:transparent;}
+#follow.left ul.size16 li.follow{margin:0px auto !important}
+.size16 li.iconOnly a {height:16px;width:16px;}
+.size24 li.iconOnly a {height:24px;width:24px;}
+.size32 li.iconOnly a {height:32px;width:32px;}
+.size48 li.iconOnly a {height:48px ;width:48px;}
+.size60 li.iconOnly a {height:60px ;width:60px;}
+.size32 li.icon_text a {line-height:34px;padding-left:40px;}
+.size16 li.icon_text a {padding-left:20px;line-height:20px;}
+.size24 li.icon_text a {line-height:30px;padding-left:30px;}
+.size48 li.icon_text a {line-height:56px;padding-left:56px;}
+.size60 li.icon_text a {line-height:70px;padding-left:70px;}
+ul.socialwrap {list-style-type:none;margin:0; padding:0}
+ul.socialwrap li {list-style-type:none;}
+ul.followwrap {list-style-type:none;margin:0; padding:0}
+ul.followrap li {list-style-type:none;}
+div.clean {clear:left;}
+/* adding theme support for default   */ 
+.entry ul.socialwrap li:before, #sidebar ul li.share_links ul.socialwrap li:before, #sidebar ul li.follow_links ul.followwrap li:before, #content .entry ul.socialwrap li:before {content: "" !important;}
+                    .entry ul.socialwrap li{padding:0;margin:0;text-indent:0;}
+                    .entry ul.socialwrap li a span {padding-left:9px;}
+                    .entry ul.socialwrap li a img {padding:0;border:none;}
+                    .entry ul.socialwrap {padding:0;margin-top:20px}
+                    #follow ul {margin:0}

@@ -1,0 +1,4 @@
+[27-Apr-2015 10:18:11] PHP Fatal error:  Call to undefined function  add_action() in /home/elumi/public_html/blog/wp-content/plugins/hello.php on line 60
+[16-Feb-2016 14:55:48] PHP Fatal error:  Call to undefined function  add_action() in /home/elumi/public_html/blog/wp-content/plugins/hello.php on line 60
+[16-Feb-2016 14:55:50] PHP Fatal error:  Call to undefined function  add_action() in /home/elumi/public_html/blog/wp-content/plugins/hello.php on line 60
+[23-Sep-2017 21:45:20] PHP Fatal error:  Call to undefined function  add_action() in /home/elumi/public_html/blog/wp-content/plugins/hello.php on line 60

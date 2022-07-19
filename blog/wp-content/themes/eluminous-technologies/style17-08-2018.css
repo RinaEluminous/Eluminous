@@ -1,0 +1,351 @@
+/*!
+Theme Name: eluminous-technologies
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: eluminous-technologies
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+eluminous-technologies is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+/*font-family: 'Anton', sans-serif;*/
+
+
+
+a{ text-decoration:none;}
+
+.popup-sec {
+
+  background-color: #fff;
+
+  border: 1px solid #ededed;
+
+  border-radius: 10px;
+
+  font-family: "Roboto",sans-serif;
+
+  margin: auto;
+
+  max-width: 600px;
+
+  overflow: hidden;
+
+  padding: 25px 0px 0;
+
+}
+
+.popup-sec h2 {
+
+  color: #ef8720;
+
+  font-family: "Anton",sans-serif;
+
+  font-size: 36px;
+
+  font-weight: normal;
+
+  line-height: 43px;
+
+  margin-bottom: 11px;
+
+  margin-top: 10px;
+
+  text-transform: uppercase;
+
+}
+
+  .popup-sec h3 {
+
+  color: #323232;
+
+  font-size: 18px;
+
+  margin-bottom: 0px;
+
+  margin-top: 0;
+
+  font-weight:normal;
+
+ }
+
+.popup-sec img {
+
+  float: left;
+
+  margin-left: 30px;
+
+  margin-right: 50px;
+
+}
+
+.popup-form {
+
+  background: #efede1 none repeat scroll 0 0;
+
+  clear: both;
+
+  float: left;
+
+  margin-top: 10px;
+
+  padding: 15px 25px;
+
+  width: 100%;
+
+  text-align:center;
+
+}
+
+.popup-form a {
+
+  background: #333;
+
+  color: #fff;
+
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+}
+
+.popup-form a:hover {
+
+  background: #434343;
+
+  }
+
+.popup-footer {
+
+  background: #ef8720 none repeat scroll 0 0;
+
+  clear: both;
+
+  color: #fff;
+
+  display: block;
+
+  float: left;
+
+  font-size: 12px;
+
+  line-height: 36px;
+
+  padding: 0 25px;
+
+  text-align: center;
+
+  width: 100%;
+
+}
+
+.popup-form [type="text"], .popup-form [type="phone"], .popup-form [type="email"] {
+
+  border: 1px solid #e1e1e1;
+
+  border-radius: 5px;
+
+  box-sizing: border-box;
+
+  padding: 6px 10px;
+
+  width: 100%;
+
+}
+
+.popup-form .col {
+
+  float: left;
+
+  margin-bottom: 9px;
+
+  width: 60%;
+
+}
+
+.popup-form [type="submit"] {
+
+  background: #171717 none repeat scroll 0 0;
+
+  border: medium none;
+
+  border-radius: 5px;
+
+  color: #fff;
+
+  cursor: pointer;
+
+  font-family: "Roboto Condensed",sans-serif;
+
+  font-size: 20px;
+
+  font-weight: 700;
+
+  line-height: 87px;
+
+  margin-top: -55px;
+
+  text-transform: uppercase;
+
+
+
+}
+
+.popup-form [type="button"]:hover{ background:#0d0d0d;}
+
+.col-last {
+
+  float: left;
+
+  margin-left: 20px;
+
+  width: 36%;
+
+}
+
+.popup-form .col:nth-child(2) {
+
+  margin: 0;
+
+}
+
+.popup-sec2 {
+
+  margin-top: 30px;
+
+}
+
+@media (max-width: 640px){
+
+	.popup-sec {text-align: center;}
+
+	.popup-sec h2 {font-size: 23px;line-height: 26px;}
+
+	.popup-form {padding: 15px;}
+
+	.popup-form .col {width: 100%;}
+
+	.col-last {margin-left: 0;width: 100%;}
+
+	.popup-form [type="submit"] {line-height: 29px;margin-top: 10px;font-size: 17px;}
+
+	.popup-footer {line-height: 15px;padding: 7px 25px;width: 130%;}
+
+	.popup-sec img {float: none;}
+
+	}
+
+.blog_row{
+	margin-top: 150px;
+}
+
+.widget-title{
+	padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*comment css*/
+.comment-author.vcard {
+    padding-bottom: 12px;
+}
+
+.comment-list li {
+    border: 1px solid #f1f1f1;
+    margin: 5px;
+    padding: 10px;
+}
+
+.comment-metadata {
+    padding: 8px;
+}
+
+.comment-content {
+    text-align: left;
+}
+
+.comment-body .reply a {
+  background-color: #929598 !important;
+  color: #fff;
+}
+
+.comment-reply-link {
+  border: 1px solid #929598;
+  margin-top: 41px !important;
+  padding: 10px 15px !important;
+}
+
+.comment-body .reply {
+    margin-bottom: 10px;
+    /*margin-top: 40px;*/
+    text-align: right;
+}
+
+.comment-reply-title {
+  font-size: 15px;
+  text-align: left;
+}
+
+.comment-respond small {
+  font-size: 12px;
+}
+
+h3#reply-title {
+    text-align: left;
+}
+
+.screen-reader-text{
+	display: none;
+}
+
+.comment-meta{
+	padding:0px;
+}
+input#submit {
+	padding: 10px;
+    background: #929598;
+    font-weight: 700;
+}
+/*comment end*/
+
+#primary article {
+    background: #fff none repeat scroll 0 0;
+    padding: 5px 10px 15px;
+    box-shadow: 0 1px 2px 1px #eeeeee;
+}
+
+body {
+    color: #000;
+    word-wrap: break-word;
+    line-height: 31px;
+    font-size: 15px;
+    /* font-family: "Montserrat",sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    background: #f3f3f3;
+}
+
+aside#secondary {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 1px 2px 1px #eeeeee;
+    padding: 5px 15px;
+}
+
+.entry-title {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}

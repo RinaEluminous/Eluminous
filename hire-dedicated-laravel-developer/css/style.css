@@ -1,0 +1,1418 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.eot);
+    src: url(../fonts/Montserrat-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Regular.woff2) format("woff2"), url(../fonts/Montserrat-Regular.woff) format("woff"), url(../fonts/Montserrat-Regular.ttf) format("truetype"), url(../fonts/Montserrat-Regular.svg#Montserrat-Regular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.eot');
+    src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Medium.woff2') format('woff2'), url('../fonts/Montserrat-Medium.woff') format('woff'), url('../fonts/Montserrat-Medium.ttf') format('truetype'), url('../fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-SemiBold.eot);
+    src: url(../fonts/Montserrat-SemiBold.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-SemiBold.woff2) format("woff2"), url(../fonts/Montserrat-SemiBold.woff) format("woff"), url(../fonts/Montserrat-SemiBold.ttf) format("truetype"), url(../fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold) format("svg");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Bold.eot);
+    src: url(../fonts/Montserrat-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Montserrat-Bold.woff2) format("woff2"), url(../fonts/Montserrat-Bold.woff) format("woff"), url(../fonts/Montserrat-Bold.ttf) format("truetype"), url(../fonts/Montserrat-Bold.svg#Montserrat-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal
+}
+
+
+/*===========================================
+    Body CSS Style Start
+=============================================*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+ul,
+li,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    line-height: normal;
+    font-weight: 600;
+    color: #151515;
+}
+
+
+/* h1 {
+    font-size: 60px;
+} */
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 33px;
+    margin-bottom: 19px;
+}
+
+h4 {
+    font-size: 21px;
+    margin-bottom: 19px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 26px;
+}
+
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
+
+/*===========================================
+    Body CSS Style End
+=============================================*/
+
+
+/*===========================================
+    Colors CSS Style Start
+=============================================*/
+
+.red_03b {
+    color: #fb503b;
+}
+
+.blue_977_bg {
+    background-color: #062977;
+}
+
+
+/*===========================================
+    Colors CSS Style End
+=============================================*/
+
+
+/*===========================================
+    Button CSS Style Start
+=============================================*/
+
+.btn {
+    font-size: 21px;
+    min-width: 267px;
+    display: inline-block;
+    height: 59px;
+    line-height: 59px;
+    color: #fff;
+    font-weight: 600;
+    background: -moz-linear-gradient(180deg, rgb(251, 80, 59) 0%, rgb(243, 114, 37) 100%);
+    background: -webkit-linear-gradient(180deg, rgb(251, 80, 59) 0%, rgb(243, 114, 37) 100%);
+    background: -ms-linear-gradient(180deg, rgb(251, 80, 59) 0%, rgb(243, 114, 37) 100%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border: 0;
+    /*   transition: transform .5s, box-shadow .3s, background-color .3s, color .3s, opacity .3s; */
+}
+
+.red_btn .btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fb503b;
+    z-index: -1;
+    transform: scaleY(0);
+    transition: all 0.3s;
+}
+
+.red_btn .btn:hover::before {
+    transform: scaleX(1);
+}
+
+.red_btn .btn:hover,
+.red_btn .btn:focus {
+    color: #fff;
+    border: 0;
+}
+
+
+/*===========================================
+    Button CSS Style End
+=============================================*/
+
+
+/*===========================================
+    Banner CSS Style Start
+=============================================*/
+
+.overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fb503b;
+    z-index: -1;
+}
+
+.overlay_blue::before {
+    background-color: rgba(2, 11, 31, 0.85);
+}
+
+.banner {
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home_banner {
+    background-image: url(../images/home-banner-image.jpg);
+}
+
+.our_promise_banner {
+    background-image: url(../images/our-promise-banner.jpg);
+}
+
+.map_banner {
+    background-image: url(../images/world-map-bg.png);
+    background-position: right center;
+    background-size: auto;
+}
+
+
+/*===========================================
+    Banner CSS Style End
+=============================================*/
+
+
+/*===========================================
+    Navigation CSS Style Start
+=============================================*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 20px 0px;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #000;
+    z-index: -1;
+    transition: height 0.3s;
+}
+
+header.sticky::before {
+    height: 100%;
+}
+
+.contact_info {
+    display: flex;
+    align-items: center;
+}
+
+.contact_info li {
+    margin-right: 25px;
+}
+
+.contact_info li:last-child {
+    margin-right: 0;
+}
+
+.contact_info li a {
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.contact_info li a:hover,
+.contact_info li a:focus {
+    color: #fb503b;
+}
+
+.contact_info li.call_contact .call_contact.btn {
+    min-width: 235px;
+    height: 52px;
+}
+
+.contact_info li .whatsapp_icons {
+    margin-right: 8px;
+}
+
+.contact_info li.call_contact .call_contact.btn .call_icons {
+    margin-right: 5px;
+}
+
+.contact_info li .whatsapp_icons {
+    max-width: 36px;
+}
+
+.contact_info li .call_icons {
+    max-width: 20px;
+}
+
+.icons {
+    display: inline-block;
+    line-height: 0;
+}
+
+.icons img {
+    width: 100%;
+}
+
+
+/*===========================================
+    Navigation CSS Style End
+=============================================*/
+
+
+/*===========================================
+    Home CSS Style Start
+=============================================*/
+
+#home_banner {
+    background-color: rgba(2, 11, 31, 1);
+    padding: 120px 0 70px;
+}
+
+#home_banner .content {
+    width: 100%;
+}
+
+#home_banner .content .top {
+    margin-bottom: 35px;
+}
+
+#home_banner .content .top h2 {
+    margin-bottom: -5px;
+}
+
+#home_banner .content .top h1 {
+    letter-spacing: 1.1px;
+    margin-bottom: 6px;
+}
+
+#home_banner .content .top h1 span {}
+
+#home_banner .content .top p {
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+#home_banner .content .why_laravel {}
+
+#home_banner .content .why_laravel h3 {}
+
+.why_laravel_list {
+    margin-bottom: 67px;
+}
+
+.why_laravel_list li {
+    position: relative;
+    /* font-size: 20px; */
+    font-size: 19px;
+    padding-left: 39px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.why_laravel_list li:last-child {
+    margin-bottom: 0px;
+}
+
+.why_laravel_list li::before {
+    content: "";
+    background-image: url(../images/icons/red-arrow.png);
+    width: 21px;
+    height: 20px;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+.partner_img_wrap {}
+
+.partner_img_wrap ul {
+    display: flex;
+    align-items: flex-end;
+    max-width: 645px;
+    width: 100%;
+}
+
+.partner_img_wrap ul li {
+    flex: 0 0 auto;
+    margin-right: 50px;
+}
+
+.partner_img_wrap ul li:last-child {
+    margin-right: 0px;
+}
+
+.partner_img_wrap ul li img {}
+
+.trusted_client {
+    padding: 85px 0px 70px;
+}
+
+.trusted_client .top {
+    margin-bottom: 85px;
+}
+
+.trusted_client p.testimonial {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    position: relative;
+    max-width: 1100px;
+    /* margin: 0 auto 22px; */
+    margin: 0 auto 10px;
+}
+
+.trusted_client p.testimonial::before {
+    content: "";
+    background-image: url(../images/icons/testimonial-icon.png);
+    width: 71px;
+    height: 48px;
+    background-size: cover;
+    /* position: absolute; */
+    display: inline-block;
+    left: -38px;
+    top: -32px;
+}
+
+.trusted_client p.testimonial span {
+    font-size: 21px;
+    font-style: italic;
+}
+
+.trusted_client .star {
+    max-width: 128px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.trusted_client .star img {
+    width: 100%;
+}
+
+.trusted_partner {}
+
+.trusted_partner .box {
+    border: 1px solid #dddddd;
+}
+
+.trusted_partner .box {
+    filter: grayscale(100);
+}
+
+.trusted_partner .box:hover {
+    filter: none;
+}
+
+.assist_sec {
+    padding: 85px 0px;
+}
+
+.assist_sec .why_laravel_list li {
+    font-weight: 600;
+}
+
+.assist_sec h2 {
+    margin-bottom: 20px;
+}
+
+.assist_sec p {
+    font-weight: 500;
+}
+
+.assist_sec .why_laravel_list {
+    margin-bottom: 27px;
+}
+
+.team_slider {
+    background: transparent;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.15);
+    transition: all .5s ease-in-out;
+    background-color: #fff;
+    border: 5px solid #fff;
+}
+
+.team {
+    margin-right: 55px;
+    width: 100%;
+}
+
+.team h4 {
+    margin-bottom: 15px;
+}
+
+.team .box img {
+    width: auto;
+}
+
+.team .box {
+    /*box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.15);*/
+    /*transition: all .5s ease-in-out;*/
+    /*background-color: #fff;*/
+    /* max-width: 320px;*/
+    /*padding: 5px; */
+}
+
+.team_slider {
+    max-width: 316px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/* .team .box .image {
+    position: relative;
+    height: 100%;
+}
+ */
+
+
+/* .team .overlay_team {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #ff9100 1%,#56dc1 100%);
+    top: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    z-index: 15;
+} */
+
+
+/* .team .box:hover .overlay_team {
+    opacity: 0.85;
+}
+ */
+
+.team .box .team_info {
+    text-align: center;
+    padding: 13px 0;
+    box-sizing: border-box;
+    width: calc(100% - 15px);
+    margin: 0 auto;
+}
+
+.team .box .team_info h4 {
+    margin-bottom: 3px;
+    color: #151515;
+}
+
+.team .box .team_info p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+}
+
+.team .box .team_info p span {
+    color: #fb503b;
+}
+
+.case_studies {
+    padding: 75px 0 50px;
+}
+
+.case_studies h2 {
+    margin-bottom: 45px;
+}
+
+.case_studies .owl-stage,
+.case_studies .owl-item {
+    display: flex;
+}
+
+
+/*.case_studies .owl-carousel .owl-item{
+    display: flex;
+    flex: 0 0 100%;
+}*/
+
+.case_studies .owl-carousel .owl-item .box {
+    display: flex;
+    flex: 0 0 100%;
+    margin-bottom: 10px;
+}
+
+.case_studies .box a {
+    transition: all 0.5s;
+    background-color: #f3f6f8;
+    padding: 15px;
+    /*  height: 100%; */
+    border-radius: 6px;
+    display: flex;
+}
+
+.case_studies .box a:hover {
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    transform: translateY(-5px);
+}
+
+.case_studies .box a .outer_wrap {
+    border-radius: 6px;
+    border: 1px solid #dedede;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.case_studies .box a .outer_wrap .project_details {
+    padding: 9px 20px 20px;
+    height: 100%;
+}
+
+.case_studies .box a h4 {
+    color: #151515;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.case_studies .box a p {
+    color: #424242;
+    font-size: 15px;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+
+.case_study_img {}
+
+.case_study_img img {
+    width: 100%;
+}
+
+.case_studies .owl-dots.disabled {
+    display: none;
+    text-align: center;
+}
+
+.case_studies .owl-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.case_studies .owl-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #1c1c1c;
+    margin: 0 3px;
+    transition: all 0.3s;
+}
+
+.case_studies .owl-dot.active {
+    background: -moz-linear-gradient(180deg, rgb(251, 80, 59) 0%, rgb(243, 114, 37) 100%);
+    background: -webkit-linear-gradient(180deg, rgb(251, 80, 59) 0%, rgb(243, 114, 37) 100%);
+    background: -ms-linear-gradient(180deg, rgb(251, 80, 59) 0%, rgb(243, 114, 37) 100%);
+}
+
+.hiring_process {
+    padding: 20px 0px 80px;
+}
+
+.hiring_process h2 {
+    margin-bottom: 50px;
+}
+
+.hiring_process ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1700px;
+    margin: 0 auto 60px;
+}
+
+.hiring_process ul li {
+    text-align: center;
+    flex-grow: 1;
+    position: relative;
+    z-index: 1;
+    flex: 0 0 20%;
+}
+
+.hiring_process ul li p {
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.hiring_process ul li p span {
+    margin-bottom: 5px;
+}
+
+.hiring_process ul li .circle_heading {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #fb503b;
+    border-radius: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #fb503b;
+    margin-bottom: 37px;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.hiring_process .btn {
+    min-width: 380px;
+    transition: all 0.3s;
+}
+
+.arrow {
+    position: absolute;
+    right: calc(-50% - -58px);
+    width: calc(100% - 113px);
+    align-items: center;
+    justify-content: center;
+    top: 38px;
+}
+
+.arrow::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #fb503b;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.arrow::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+    border: 2px solid #fb503b;
+    transform: rotate(45deg);
+    border-color: #fb503b #fb503b #fb503b00 #fb503b00;
+    z-index: -1;
+    right: 4px;
+}
+
+.trusted_client.second_testi {
+    padding: 103px 0px 85px;
+}
+
+.trusted_client.second_testi p.testimonial {
+    max-width: 100%;
+    /* line-height: 33px; */
+}
+
+.trusted_client.second_testi p:before {
+    opacity: 0.1;
+}
+
+.trusted_client.second_testi .top {
+    margin-bottom: 0px;
+}
+
+.experience_sec {
+    padding: 70px 0px 75px;
+}
+
+.experience_sec .box {
+    text-align: center;
+}
+
+.experience_sec .box span {
+    font-size: 52px;
+    color: #fb503b;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.experience_sec .box p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #151515;
+    margin-bottom: 0;
+    margin-top: -5px;
+}
+
+.our_promise {
+    padding: 80px 0px 75px;
+}
+
+.our_promise .img_wrap {
+    max-width: 208px;
+    width: 100%;
+}
+
+.our_promise .container {
+    max-width: 1040px;
+}
+
+.our_promise .img_wrap img {
+    width: 100%;
+}
+
+.our_promise h2 {
+    margin-bottom: 1px;
+}
+
+.our_promise h6 {
+    margin-bottom: 17px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.our_promise p {
+    margin-bottom: 0;
+}
+
+
+/*===========================================
+    Home CSS Style End
+=============================================*/
+
+
+/*===========================================
+    Footer CSS Style Start
+=============================================*/
+
+footer {
+    padding: 50px 0px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 40px;
+}
+
+footer .container {}
+
+footer .footer_text {}
+
+footer .footer_logo {
+    max-width: 227px;
+    margin-bottom: 15px;
+}
+
+footer .footer_logo img {
+    width: 100%;
+}
+
+footer .footer_text p,
+.bottom_footer p,
+.bottom_footer p a {
+    color: #666666;
+    font-size: 13px;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+
+.consulting_partners {
+    /*padding-left: 24px;*/
+    /*padding-left: 0px;*/
+}
+
+.consulting_partners h6 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.consulting_partners h6::after {
+    content: "";
+    width: 36px;
+    height: 2px;
+    background-color: #fb503b;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.consulting_partners_wrap {
+    display: flex;
+}
+
+.consulting_partners_wrap li {
+    margin-right: 18px;
+}
+
+.consulting_partners_wrap li:last-child {
+    margin-right: 0px;
+}
+
+.consulting_partners_wrap li img {}
+
+.bottom_footer {
+    padding: 20px 0px;
+}
+
+.bottom_footer p,
+.bottom_footer p a {
+    font-size: 14px;
+}
+
+.bottom_footer p a:hover {
+    color: #000 !important;
+}
+
+.bottom_footer .social_details {}
+
+.bottom_footer .social_details ul {
+    display: flex;
+}
+
+.bottom_footer .social_details li {
+    margin-right: 12px;
+}
+
+.bottom_footer .social_details li:last-child {
+    margin-right: 0px;
+}
+
+.bottom_footer .social_details li a {
+    background-color: #f4f4f4;
+    display: inline-block;
+    border: 1px solid #7d7d7d;
+    color: #7d7d7d;
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 38px;
+    transition: all 0.3s;
+}
+
+.bottom_footer .social_details li a:hover,
+.bottom_footer .social_details li a:focus {
+    color: #fff;
+}
+
+.bottom_footer .social_details li a.facebook:hover,
+.bottom_footer .social_details li a.facebook:focus {
+    background-color: #3b5999;
+    border-color: #3b5999;
+}
+
+.bottom_footer .social_details li a.twitter:hover,
+.bottom_footer .social_details li a.twitter:focus {
+    background-color: #55acee;
+    border-color: #55acee;
+}
+
+.bottom_footer .social_details li a.linkedin:hover,
+.bottom_footer .social_details li a.linkedin:focus {
+    background-color: #0077B5;
+    border-color: #0077B5;
+}
+
+.bottom_footer .social_details li a.youtube:hover,
+.bottom_footer .social_details li a.youtube:focus {
+    background-color: #cd201f;
+    border-color: #cd201f;
+}
+
+.bottom_footer .social_details li a i {
+    font-family: 'fontawesome';
+    font-style: normal;
+}
+
+.scrollToTop {
+    background-color: rgba(0, 0, 0, 0.70);
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 150px;
+    right: 30px;
+    display: none;
+    border-radius: 3px;
+    transition: all 0.3s;
+    border: 0;
+    cursor: pointer;
+    opacity: 1;
+    z-index: 999;
+    padding: 10px;
+    line-height: 6px;
+}
+
+.scrollToTop:hover {
+    background-color: #323232;
+}
+
+.scrollToTop img {
+    width: 100%;
+}
+
+.scrolltop {
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 16px;
+    right: 0px;
+    z-index: 99;
+}
+
+.quote a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+#quote {
+    border-radius: 6px 6px 0 0;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    right: 7px;
+    z-index: 1;
+    transition: all 0.5s;
+    background: -webkit-linear-gradient(rgb(251, 80, 59) 0%, rgb(243, 114, 37) 100%);
+    background: -o-linear-gradient(rgb(251, 80, 59) 0%, rgb(243, 114, 37) 100%);
+    background: linear-gradient(rgb(251, 80, 59) 0%, rgb(243, 114, 37) 100%);
+}
+
+
+/*===========================================
+    Footer CSS Style End
+=============================================*/
+
+.contact-form-top {
+    background-color: #ffffff;
+    padding: 40px 25px 25px;
+    border-radius: 10px;
+    max-width: 430px;
+    margin-left: auto;
+}
+
+.contact-form-top h2 {
+    font-size: 30px;
+    color: #151515;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.contact-form-top h2 small {
+    display: block;
+    font-size: 15px;
+    color: #707070;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+input,
+select,
+textarea,
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    color: #000;
+    border-color: #f85b34;
+}
+
+input.form-control,
+.custom-select {
+    height: 45px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.form-group {
+    margin-bottom: 11px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.error {
+    font-size: 12px !important;
+    color: red !important;
+    font-weight: 500 !important;
+}
+
+textarea.form-control {
+    height: auto;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+.form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #707070;
+}
+
+.form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #707070;
+}
+
+.form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #707070;
+}
+
+.form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #707070;
+}
+
+.form-group button.btn {
+    width: 100%;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
+    margin-bottom: 0;
+    transition: all 0.5s
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.wrapper.modal-dialog h4 {
+    font-size: 30px;
+    color: #151515;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.wrapper.modal-dialog p,
+.wrapper.modal-dialog .why_laravel_list li {
+    font-size: 16px !important;
+    color: #424242;
+}
+
+.wrapper.modal-dialog p:last-child {
+    margin-bottom: 0;
+}
+
+.wrapper.modal-dialog .top_wrap {
+    margin-bottom: 30px;
+}
+
+.wrapper.modal-dialog .img_wrap {
+    padding: 0 0 0px 17px;
+    max-width: 480px;
+}
+
+.modal-dialog.wrapper {
+    max-width: 955px;
+    padding: 85px 40px;
+    background-color: #fff;
+}
+
+.wrapper .modal-content {
+    border: 0;
+    position: static;
+}
+
+.wrapper .list_wrap {
+    margin: 12px 0 0 0;
+}
+
+.wrapper .list_wrap p {
+    display: flex;
+}
+
+.wrapper .list_wrap p::before {
+    content: "";
+    background-image: url(../images/icons/red-arrow.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 26px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+    margin-right: 13px;
+    margin-top: 5px;
+    flex: 0 0 auto;
+}
+
+.wrapper .list_wrap.gray_wrap {
+    background-color: #f7f7f9;
+    border: 2px solid #fb503b;
+    padding: 30px;
+    color: #fff;
+}
+
+.wrapper .list_wrap.gray_wrap h5 {
+    margin-bottom: 23px;
+}
+
+.wrapper .list_wrap.gray_wrap p:last-child {
+    margin-bottom: 0;
+}
+
+.wrapper .close {
+    position: absolute;
+    right: 35px;
+    top: 30px;
+    z-index: 1;
+}
+
+.wrapper .close {
+    opacity: 1;
+}
+
+.wrapper .close span {
+    max-width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.wrapper .close img {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .list_wrap h5 {
+    margin-bottom: 20px;
+}
+
+.wrapper .why_laravel_list {
+    margin-bottom: 35px;
+}
+
+.wrapper.modal-dialog .top_wrap .text_wrap p {
+    font-size: 15px !important;
+}
+
+.modal-dialog-centered::before {
+    display: none;
+}
+
+.form_bottom_text {
+    color: #151515;
+    font-weight: 500;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.why_elu {
+    background-color: #f3f6f8;
+    padding: 60px 0px;
+}
+
+.why_elu h2 {
+    margin-bottom: 15px;
+    margin-top: 16px;
+}
+
+.why_elu p {
+    font-size: 16px;
+    color: #666666;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+.why_elu .why_laravel_list li {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.elu_slider {
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 720px;
+}
+
+.elu_slider .img_box img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+/* 14-04-2020 */
+
+#home_banner .content .why_laravel.top_new_text {
+    margin-bottom: 22px;
+}
+
+.bottom_box_testi {
+    /* box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.05); */
+    display: inline-block;
+    padding: 10px 0;
+    text-align: left;
+    box-sizing: border-box;
+    border-top: 1px solid #f1f1f1;
+    /* border-radius: 5px; */
+    /* max-width: 500px; */
+}
+
+.trusted_client.second_testi .bottom_box_testi {
+    border-top: 1px solid rgba(255, 255, 255, 0.30);
+}
+
+.bottom_box_testi h6 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.bottom_box_testi ul {}
+
+.bottom_box_testi ul li,
+#home_banner .content .why_laravel.top_new_text p {
+    position: relative;
+    /* padding-left: 18px; */
+    margin: 0 15px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.bottom_box_testi ul li::before,
+#home_banner .content .why_laravel.top_new_text p::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: -moz-linear-gradient(180deg, rgb(251, 80, 59) 0%, rgb(243, 114, 37) 100%);
+    background: -webkit-linear-gradient(180deg, rgb(251, 80, 59) 0%, rgb(243, 114, 37) 100%);
+    background: -ms-linear-gradient(180deg, rgb(251, 80, 59) 0%, rgb(243, 114, 37) 100%);
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 15px;
+    transform: translateY(-2px);
+}
+
+.hiring_process h2 small {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#home_banner .content .why_laravel.top_new_text p {
+    margin: 0;
+    font-weight: 600;
+}
+
+
+/* #home_banner .content .why_laravel.top_new_text p::before {
+    top: 9px;
+    position: static;
+    display: inline-block;
+    margin-right: 18px;
+} */
+
+
+/* #home_banner .content .why_laravel.top_new_text p {
+    padding-left: 0px;
+} */
+
+.why_elu .why_laravel_list {
+    margin-bottom: 35px;
+}
+
+@media (max-width: 767px) {
+    .hiring_process ul li .circle_heading {
+        display: flex;
+    }
+    .hiring_process ul {
+        display: block;
+    }
+    .arrow::before {
+        width: 2px;
+        height: 100%;
+    }
+    .arrow::after {
+        bottom: 6px;
+        left: 22px;
+        right: auto;
+        text-align: center;
+        border-color: #fb503b00 #fb503b #fb503b #fb503b00;
+    }
+    .arrow {
+        top: auto;
+        width: 41px;
+        height: calc(100% - 65px);
+        right: auto;
+        left: 0;
+        top: auto;
+        bottom: calc(-50% - -62px);
+    }
+}

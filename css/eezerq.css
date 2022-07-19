@@ -1,0 +1,8 @@
+.fancybox-slide > div > h2:first-child{margin-top:10px;}
+a[href$=jpg], a[href$=jpeg], a[href$=jpe], a[href$=png], a[href$=gif]{text-decoration:none;border:0 none;}
+.imglist img{max-width:100%;}
+.tright{text-align:right;}
+.tright .btn{margin-left:10px;}
+@media all and (min-width:800px){.fancybox-thumbs{top:auto;width:auto;bottom:0;left:0;right:0;padding:10px 10px 5px 10px;box-sizing:border-box;background:rgba(0, 0, 0, 0.3);}
+.fancybox-show-thumbs .fancybox-inner{right:0;}
+}

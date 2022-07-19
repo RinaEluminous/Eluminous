@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: https://eluminoustechnologies.com/portfolio_details/b1g1-NGO/privacy-policy	
+Disallow: https://eluminoustechnologies.com/portfolio_details/crowdt/privacy-policy
+Disallow: https://eluminoustechnologies.com/portfolio_details/club-bookers/privacy-policy
+Disallow: https://eluminoustechnologies.com/portfolio_details/firstcolorado/privacy-policy	
+Disallow: https://eluminoustechnologies.com/portfolio_details/logo-maker/privacy-policy	
+Disallow: https://eluminoustechnologies.com/portfolio_details/icmarkets/privacy-policy	
+Disallow: https://eluminoustechnologies.com/portfolio_details/behaviour-management-analysis/privacy-policy	
+Disallow: https://eluminoustechnologies.com/portfolio_details/myselect/privacy-policy	
+Disallow: https://eluminoustechnologies.com/portfolio_details/liviabielovic/privacy-policy	

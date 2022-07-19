@@ -1,0 +1,749 @@
+@media(min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+        padding: 0;
+    }
+}
+
+@media(max-width: 1400px) {}
+
+@media(max-width: 1399px) {
+    .trusted_client p.testimonial::before {
+        left: 0px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 33px;
+    }
+    h3 {
+        font-size: 30px;
+        margin-bottom: 14px;
+    }
+    .why_laravel_list li,
+    #home_banner .content .top p {
+        font-size: 17px;
+    }
+    .case_studies {
+        padding: 50px 0;
+    }
+    .trusted_client {
+        padding: 60px 0px;
+    }
+    .trusted_client .top {
+        margin-bottom: 50px;
+    }
+    .hiring_process ul li p {
+        font-size: 22px;
+    }
+    .trusted_client p.testimonial {
+        font-size: 22px;
+    }
+    .trusted_client.second_testi {
+        padding: 73px 0px 60px;
+    }
+    .experience_sec .box span {
+        font-size: 45px;
+    }
+    .our_promise {
+        padding: 60px 0px;
+    }
+}
+
+@media(max-width: 1199px) {
+    .container {
+        max-width: 100%;
+    }
+    .partner_img_wrap ul li {
+        margin-right: 20px;
+        margin-bottom: 20px;
+        flex: 0 0 calc(30% - 20px);
+    }
+    .hiring_process ul li .circle_heading {
+        width: 70px;
+        height: 70px;
+    }
+    .hiring_process ul li p {
+        font-size: 20px;
+    }
+    .hiring_process .btn {
+        min-width: 330px;
+    }
+    .trusted_client p.testimonial {
+        font-size: 20px;
+    }
+    .bottom_box_testi ul li {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+}
+
+@media(max-width: 1024px) {
+    h2 {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 44px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 17px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .case_studies {
+        padding: 40px 0 30px;
+    }
+    .hiring_process {
+        padding: 20px 0px 60px;
+    }
+    .hiring_process ul li p {
+        font-size: 18px;
+    }
+    .case_studies h2,
+    .hiring_process h2 {
+        margin-bottom: 25px;
+    }
+    #home_banner .content .top p {
+        line-height: 25px;
+    }
+    .trusted_client {
+        padding: 50px 0px;
+    }
+    .btn {
+        font-size: 20px;
+        min-width: 230px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .trusted_client.second_testi {
+        padding: 50px 0px;
+    }
+    .experience_sec {
+        padding: 50px 0px 55px;
+    }
+    .our_promise {
+        padding: 50px 0px;
+    }
+    .quote {
+        display: none;
+    }
+    .why_elu .why_laravel_list li {
+        font-size: 16px;
+    }
+    .why_elu .why_laravel_list {
+        margin-bottom: 35px;
+    }
+    .why_elu h2 {
+        margin-top: 0px;
+    }
+    .assist_sec {
+        padding: 60px 0px;
+    }
+    .why_elu {
+        padding: 60px 0px;
+    }
+    .bottom_box_testi ul li {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 991px) {
+    h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        line-height: 21px;
+    }
+    .hiring_process ul li p {
+        font-size: 15px;
+    }
+    .logo img {
+        max-width: 240px;
+    }
+    .contact_info li a {
+        font-size: 16px;
+    }
+    .contact_info li .whatsapp_icons {
+        max-width: 26px;
+    }
+    .contact_info li.call_contact .call_contact.btn {
+        min-width: 205px;
+        height: 42px;
+    }
+    .contact_info li a {
+        font-size: 15px;
+    }
+    #home_banner .content .top h2 {
+        margin-bottom: 0px;
+    }
+    #home_banner .content .top {
+        margin-bottom: 23px;
+    }
+    .why_laravel_list li,
+    #home_banner .content .top p {
+        font-size: 16px;
+    }
+    .why_laravel_list {
+        margin-bottom: 45px;
+    }
+    .why_laravel_list li {
+        padding-left: 30px;
+        margin-bottom: 13px;
+    }
+    .why_laravel_list li::before {
+        width: 17px;
+        height: 16px;
+    }
+    .trusted_client p.testimonial::before {
+        width: 61px;
+        height: 40px;
+    }
+    .trusted_client p.testimonial {
+        font-size: 18px;
+    }
+    .btn {
+        font-size: 16px;
+        min-width: 200px;
+        height: 45px;
+        line-height: 45px;
+    }
+    .case_studies .box a .outer_wrap .project_details {
+        padding: 9px 10px 19px;
+    }
+    .case_studies .box a {
+        padding: 12px;
+    }
+    .hiring_process ul li .circle_heading {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        margin-bottom: 26px;
+        flex: 0 0 auto;
+    }
+    .arrow {
+        right: calc(-50% - -52px);
+        width: calc(100% - 98px);
+        top: 28px;
+    }
+    .arrow::after {
+        width: 22px;
+        height: 22px;
+    }
+    .hiring_process ul {
+        margin: 0 auto 40px;
+    }
+    .experience_sec .box span {
+        font-size: 38px;
+    }
+    .experience_sec .box p {
+        font-size: 16px;
+    }
+    .trusted_client .top {
+        margin-bottom: 30px;
+    }
+    .team_slider {
+        max-width: 300px;
+    }
+    .our_promise .img_wrap {
+        max-width: 170px;
+    }
+    .consulting_partners_wrap li img {
+        max-width: 100px;
+    }
+    .consulting_partners {
+        padding-left: 15px;
+    }
+    .arrow::after {
+        right: 2px;
+        top: -10px;
+    }
+    .our_promise h6 {
+        font-size: 20px;
+    }
+    .good_firms_img img {
+        max-width: 160px;
+    }
+    .google_img img {
+        max-width: 110px;
+    }
+    .pmi_img img {
+        max-width: 100px;
+    }
+    .map_banner {
+        background-position: right bottom;
+    }
+    .trusted_client p.testimonial span {
+        font-size: 18px;
+    }
+    .trusted_client p.testimonial {
+        line-height: 28px;
+    }
+    .why_elu {
+        padding: 40px 0px;
+        text-align: center;
+    }
+    .why_elu p {
+        margin: 0 auto 20px;
+        max-width: 550px;
+    }
+    .why_elu .why_laravel_list {
+        text-align: left;
+        max-width: 300px;
+        margin: 0 auto 35px;
+    }
+    .why_elu .consulting_partners {
+        padding: 0;
+        max-width: 230px;
+        text-align: left;
+        margin: 0 auto 40px;
+        transform: translateX(-35px);
+    }
+    .elu_slider {
+        margin: 0 auto;
+    }
+    .team {
+        margin-right: 0px;
+    }
+    .wrapper.modal-dialog p:last-child {
+        margin-bottom: 20px;
+    }
+    .wrapper.modal-dialog .img_wrap {
+        padding: 0px;
+    }
+    .hiring_process h2 small {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 767px) {
+    h2 {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 34px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    #home_banner .content .top {
+        text-align: center;
+    }
+    .why_laravel_list li,
+    #home_banner .content .top p {
+        font-size: 16px;
+    }
+    .contact-form-top h2 {
+        font-size: 28px;
+    }
+    .partner_img_wrap {
+        margin-bottom: 30px;
+    }
+    .contact-form-top {
+        margin: 0 auto;
+    }
+    .logo {
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+    .contact_info li.call_contact .call_contact.btn {
+        background: none;
+        font-weight: 400;
+    }
+    .contact_info li.call_contact .call_contact.btn:hover {
+        color: #fb503b;
+    }
+    .trusted_client p.testimonial {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .trusted_client p.testimonial span {
+        font-size: 16px;
+    }
+    .trusted_client p.testimonial::before {
+        width: 51px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .trusted_client p.testimonial {
+        /* margin: 0 auto 8px; */
+    }
+    .trusted_client .star {
+        max-width: 100px;
+    }
+    .assist_sec {
+        padding: 45px 0px;
+    }
+    .assist_sec .content {
+        margin-bottom: 30px;
+    }
+    .team {
+        margin-right: 0px;
+    }
+    .experience_sec {
+        padding: 35px 0px;
+    }
+    .case_studies .box {
+        margin: 0 auto 30px;
+    }
+    .case_studies .box:last-child {
+        margin-bottom: 0px;
+    }
+    .arrow::before {
+        left: 23px;
+        top: 29px;
+    }
+    .arrow::after {
+        top: 64px;
+        left: 13px;
+    }
+    .experience_sec .box p {
+        font-size: 15px;
+    }
+    .experience_sec .box span {
+        font-size: 35px;
+    }
+    .our_promise .img_wrap {
+        margin: 0 auto;
+    }
+    .our_promise h6 {
+        margin-bottom: 10px;
+    }
+    .our_promise p {
+        margin-bottom: 20px;
+    }
+    footer .footer_text p {
+        margin-bottom: 15px;
+    }
+    .hiring_process ul li:last-child {
+        min-height: auto;
+    }
+    .hiring_process ul li p span {
+        font-size: 21px;
+    }
+    .hiring_process ul li p {
+        font-size: 18px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    .hiring_process ul li {
+        text-align: center;
+        flex: 0 0 20%;
+        display: flex;
+        min-height: 125px;
+    }
+    .hiring_process ul {
+        max-width: 260px;
+    }
+    .partner_img_wrap ul li {
+        flex: 0 0 auto;
+    }
+    .contact_info li.call_contact .call_contact.btn {
+        padding: 0;
+        min-width: 0;
+    }
+    .contact_info li.call_contact .call_contact.btn:before {
+        display: none;
+    }
+    .contact_info li .whatsapp_icons {
+        max-width: 20px;
+    }
+    .contact_info li .call_icons {
+        max-width: 15px;
+    }
+    .contact_info li {
+        margin-right: 15px;
+    }
+    #home_banner {
+        padding: 150px 0 70px;
+    }
+    .bottom_footer p {
+        margin-bottom: 15px;
+    }
+    .case_studies .box:last-child {
+        margin-bottom: 10px;
+    }
+    .case_studies {
+        padding: 40px 0 10px;
+    }
+    .partner_img_wrap ul {
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    .partner_img_wrap ul li,
+    .partner_img_wrap ul li:last-child {
+        margin: 0 10px 20px;
+    }
+    .partner_img_wrap ul li:nth-child(2) {
+        max-width: inherit;
+        flex: 0 0 auto;
+    }
+    .wrapper.modal-dialog p:last-child {
+        margin-bottom: 30px;
+    }
+    .wrapper .close span {
+        max-width: 25px;
+        height: 25px;
+    }
+    .modal-dialog.wrapper {
+        padding: 55px 30px;
+    }
+    .assist_sec .why_laravel_list {
+        max-width: 390px;
+        margin: 0 auto 20px;
+    }
+    .assist_sec p,
+    .assist_sec h2 {
+        text-align: center;
+    }
+    .assist_sec .red_btn {
+        text-align: center;
+    }
+    #home_banner .content .why_laravel h3 {
+        text-align: center;
+    }
+    .why_laravel_list {
+        max-width: 250px;
+        /* margin: 0 auto 35px; */
+        margin: 0 auto 35px;
+    }
+    .owl-carousel .owl-item img {
+        width: 100%;
+    }
+    .partner_img_wrap ul li:last-child,
+    .partner_img_wrap ul li {
+        margin: 10px;
+    }
+    .scrollToTop {
+        bottom: 30px;
+    }
+    .case_studies .owl-dots {
+        margin-top: 0;
+    }
+    .hiring_process {
+        padding: 40px 0px 60px;
+    }
+    .wrapper.modal {
+        width: calc(100% - 30px);
+        height: calc(100% - 30px);
+        margin: 0 auto;
+        right: 0;
+        top: 50%;
+        bottom: 0;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    .modal-dialog.wrapper {
+        /*padding: 45px 0px;*/
+        margin: 0;
+    }
+    .wrapper .modal-body {
+        padding: 0;
+    }
+    .wrapper .why_laravel_list {
+        max-width: 100%;
+    }
+    .wrapper.modal-dialog .img_wrap {
+        max-width: 100%;
+    }
+    header,
+    header.sticky {
+        padding: 15px 0px 8px;
+    }
+    .bottom_box_testi ul {
+        text-align: center;
+    }
+    .bottom_box_testi ul li::before,
+    #home_banner .content .why_laravel.top_new_text p::before {
+        margin-right: 10px;
+        transform: translateY(-2px);
+    }
+}
+
+@media(max-width: 575px) {
+    .team {
+        margin: 0 auto;
+    }
+    .experience_sec .box {
+        margin-bottom: 20px;
+    }
+    .case_studies h2 {
+        margin-bottom: 15px;
+    }
+    .hiring_process ul {
+        margin: 0 auto 14px;
+    }
+    .our_promise .text_wrap {
+        text-align: center;
+    }
+    .form-group button.btn {
+        font-size: 18px;
+        font-weight: 500;
+        height: 50px;
+        line-height: 50px;
+    }
+    .consulting_partners {
+        padding-left: 0px;
+    }
+    .consulting_partners_wrap li img {
+        max-width: 90px;
+    }
+    .hiring_process .btn {
+        min-width: 290px;
+    }
+    input.form-control,
+    .custom-select {
+        height: 45px;
+    }
+    .wrapper .close span {
+        max-width: 25px;
+        height: 25px;
+    }
+    .wrapper.modal-dialog h4 {
+        font-size: 25px;
+    }
+    .partner_img_wrap ul li img {
+        width: 100%;
+    }
+    .partner_img_wrap .google_img {
+        max-width: 110px;
+    }
+    .partner_img_wrap .good_firms_img {}
+    .partner_img_wrap .pmi_img {
+        max-width: 100px;
+    }
+    .partner_img_wrap ul li:nth-child(2) {
+        max-width: 190px;
+    }
+    .contact-form-top h2 {
+        font-size: 25px;
+    }
+    .why_elu .why_laravel_list li {
+        font-size: 15px;
+    }
+    .why_elu .consulting_partners {
+        transform: translateX(-30px);
+        margin-bottom: 30px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .wrapper .modal-body .container.wrapper {
+        padding: 0;
+    }
+    .case_studies .owl-carousel .owl-item .box {
+        max-width: 320px;
+    }
+    .experience_sec .container {
+        max-width: 380px;
+    }
+    .trusted_client.second_testi p.testimonial {
+        line-height: 26px;
+    }
+    .trusted_client.second_testi {
+        padding: 40px 0px;
+    }
+    .contact-form-top {
+        max-width: 400px;
+    }
+    #home_banner {
+        padding: 150px 0 50px;
+    }
+    .trusted_client {
+        padding: 40px 0px;
+    }
+    .why_elu {
+        padding: 30px 0px;
+    }
+    .bottom_box_testi ul li::before,
+    #home_banner .content .why_laravel.top_new_text p::before {
+        margin-right: 10px;
+    }
+    .hiring_process h2 small {
+        font-size: 19px;
+    }
+}
+
+@media(max-width: 480px) {
+    h2 {
+        font-size: 29px;
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .contact_info li a {
+        font-size: 13px;
+    }
+    .contact-form-top {
+        padding: 20px 14px;
+    }
+    .trusted_client p.testimonial {
+        line-height: 26px;
+    }
+    .trusted_client .star {
+        max-width: 80px;
+    }
+    .trusted_client .top {
+        margin-bottom: 20px;
+    }
+    .bottom_footer p {
+        text-align: center;
+    }
+    .case_studies .owl-carousel .owl-item .box {
+        padding: 0;
+    }
+    .why_elu {
+        padding: 35px 0px;
+    }
+    textarea.form-control {
+        min-height: 100px;
+        max-height: 100px;
+    }
+    .hiring_process ul li p {
+        font-size: 16px;
+    }
+    .why_laravel_list li,
+    #home_banner .content .top p,
+    .trusted_client p.testimonial,
+    p,
+    .why_elu p {
+        font-size: 15px;
+    }
+    .modal-dialog.wrapper {
+        padding: 55px 15px;
+    }
+    .wrapper.modal-dialog p,
+    .wrapper.modal-dialog .why_laravel_list li {
+        font-size: 15px !important;
+    }
+    .wrapper.modal-dialog .top_wrap .text_wrap p {
+        font-size: 14px !important;
+        text-align: left !important;
+    }
+    .wrapper .list_wrap.gray_wrap {
+        padding: 30px 15px;
+    }
+    .bottom_box_testi ul li::before,
+    #home_banner .content .why_laravel.top_new_text p::before {
+        transform: translateY(-1px);
+        margin-right: 6px;
+    }
+    .trusted_partner .box {
+        width: 99%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-height: 500px) {}

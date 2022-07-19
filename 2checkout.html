@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>http://eluminoustechnologies.com :: Payment</title>
+
+<link rel="shortcut icon" href="favicon.ico" ><link rel="icon" href="animated_favicon1.gif" type="image/gif" >
+
+<script type="text/javascript" src="./fancybox/jquery-1.4.3.min.js"></script>
+
+<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+
+<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+<!--<link rel="stylesheet" href="style.css" />-->
+
+<script language="javascript">
+
+$(document).ready(function() {								
+
+								$("#privacy_policy").fancybox({	'opacity': true,
+
+																'overlayShow'	: false,
+
+																'transitionIn'	: 'elastic',
+
+																'transitionOut'	: 'none'
+
+															  });
+
+								$("#refund_policy").fancybox({
+
+																'opacity': true,
+
+																'overlayShow'	: false,
+
+																'transitionIn'	: 'elastic',
+
+																'transitionOut'	: 'none'
+
+															});	
+
+							});
+
+function validate(){	
+
+	var isvalid = true;
+
+	var inv_no = document.form1.inv_no.value;
+	var cName = document.form1.cName.value;
+
+	//var regexp= /^[0-9][0-9]\-[0-9][0-9]\/[0-9][0-9][0-9][0-9]$/; 
+
+	var regexp= /^[0-9][0-9]\-[0-9][0-9]\/[0-9][0-9][0-9]$/; 
+
+	//var regexp= /^[0-9][0-9]\-[0-9][0-9]\/[0-9][0-9]$/; 
+
+	if(inv_no=="")	
+
+	{
+
+		alert("Please enter invoice number.");
+
+		isvalid = false;
+
+	}
+
+	else if (inv_no.search(regexp)==-1) 
+
+	{
+
+		alert("Invalid invoice number format.");
+
+		isvalid = false;
+
+	}
+
+	if(isvalid == true){
+		
+		document.form1.cart_order_id.value = cName+' INV#'+inv_no;
+		return true;
+	}
+	else
+
+		return false;
+
+  }
+
+  </script>
+
+  </head>
+
+  <body>
+
+  <div align="center" style=" font-family:Verdana, Geneva, sans-serif;font-size:13px; color:#000; font-weight:bold;">
+
+  <br /><br />Welcome To the eLuminous Technologies<br /><br /><br />Purchase Details Form<br /><br />
+
+  <form method="post" name="form1" action="https://www.2checkout.com/2co/buyer/purchase">    <input type=hidden name=sid value='1711125'>    <table border="0" cellpadding="2" cellspacing="2" align="center">      <tr>        <td>Your Name:</td>        <td><input type="hidden" name="cart_order_id" /><input type="text" name="cName" /></td>      </tr>      <tr>        <td>Amount:</td>        <td><input type="text" name="total" /></td>      </tr>      <tr>        <td>Invoice No<span style="color:#F00">*</span>:</td>        <td><input type="text" name="inv_no" /><br />        <span style="color:#999; font-size:10px;">Example: 16-17/078</span>        </td>      </tr>      <tr>        <td>&nbsp;</td>        <td><input name="submit" type="submit" value="Continue ->" onclick="return validate();"></td>      </tr>    </table>
+
+  </form>    <br /><br /> 
+
+
+
+<!-- <font Color=red>Important Note:</font> If you are paying for Invoices older than August 2012; Please use this link for payments <a href="2checkout_67724.html">Payments for Older Invoice</a>
+
+<br /><br /> --> <br /><br />
+
+<a href="http://www.2Checkout.com">2Checkout.com</a>, Inc. is an authorized retailer of eLuminous Technologies.<br /><br />Thank you for using eLuminous Technologies.<br/><br /><a id="privacy_policy" href="#privacy_policy_div" title="Privacy Policy">Privacy Policy</a> | <a id="refund_policy" href="#refund_policy_div" title="Refund Policy">Refund Policy</a></div><div style="display: none;">		<div id="privacy_policy_div" style="width:400px;height:auto;overflow:auto;font-family:Verdana, Geneva, sans-serif;font-size:13px; color:#000;">			<strong>Privacy Policy:</strong><p>eLuminous Technologies values the privacy and security of the information that you share with us through our website may be its Code, Emails, Ideas, Server and Payment details etc etc. <br/>Also 2Checkout.com is our payment partner and all your Credit Card details are handled by them securely and are not stored on server.<br />eLuminous is a value based organization and is always open to sign Non Disclosure Agreement wherever needed. </p>		</div></div><div style="display: none;">		<div id="refund_policy_div" style="width:400px;height:auto;overflow:auto;font-family:Verdana, Geneva, sans-serif;font-size:13px; color:#000;">			<strong>Refund Policy:</strong><p>eLuminous Technologies is a software development company. Following policy is observed for refunds:<br/><br/>A.	Refund of Advance:<br/>If you are making a payment as Advance and seek cancellation within 8 days of paying the same; then we shall deduct the relevant amount on actual work done on your work and refund your amount within 15 days. <br/><br/>B.	Refund of Work Done:<br/>If you are paying against an Invoice of Milestone or Project Completion then it means development work is already done. Hence we can not refund the amount.<br/><br/>C.	Other Terms and Conditions:<br/>Other Terms and Conditions shall be as per Service Level Agreement signed between client and eLuminous at the start of the project.</p>		</div></div></body></html>

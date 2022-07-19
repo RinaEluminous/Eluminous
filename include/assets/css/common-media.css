@@ -1,0 +1,94 @@
+@media (max-width: 767px) {
+    h2 {
+        font-size: 24px;
+        margin-bottom: 30px !important;
+    }
+    h2 small,
+    h2 small span {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blue_big_btn,
+    .small_blue_btn {
+        font-size: 14px;
+        width: 100%;
+    }
+    h2 {
+        font-size: 21px;
+    }
+    #portfolio h2 {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1800px) {
+    .owl-stage {
+        padding: 0 0 50px 10px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    #slider_client,
+    .overite_section,
+    footer,
+    section#contact,
+    section#news_latter,
+    section#portfolio,
+    section.bottom_footer,
+    section.engagement_models,
+    section.main_our_insights,
+    section.our_competencies,
+    section.our_expertise.text-center {
+        padding: 70px 50px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    footer {
+        padding: 40px 30px;
+    }
+    h2 {
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+    h2 small {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+        padding: 50px 15px;
+    }
+    h2 {
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+    h2 small {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    h2 small,
+    h2 small span {
+        font-size: 16px;
+        line-height: 23px;
+        max-width: 70%;
+        margin: 10px auto 0 auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
